@@ -2,7 +2,9 @@
   <div
     class="inline-block bg-white border rounded-lg overflow-hidden text-gray-900 cursor-pointer shadow-md mr-4"
   >
-    <g-image :src="image" class="max-w-sm" />
+    <div class="h-64">
+      <g-image :src="image" class="h-64 w-full max-w-sm object-cover" />
+    </div>
     <div class="p-6">
       <div class="flex items-baseline">
         <span
@@ -70,8 +72,8 @@ export default {
     price: String,
     nbr: String,
     place: String,
-    image: String
+    image: String,
   },
-  components: {}
+  components: {},
 };
 </script>

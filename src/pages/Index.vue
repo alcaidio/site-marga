@@ -63,11 +63,11 @@
         </div>
         <div class="overflow-x-scroll whitespace-no-wrap pb-8">
           <card
-            title="Nîmes Pont du Gard"
+            title="Nîmes et le Pont du Gard"
             price="39"
             nbr="12"
             place="20"
-            image="https://st.depositphotos.com/2665689/4700/i/600/depositphotos_47005213-stock-photo-place-de-comedie-in-montpellier.jpg"
+            image="https://upload.wikimedia.org/wikipedia/commons/6/67/Arenes_de_Nimes_panorama.jpg"
           />
           <card
             title="Montpellier historique et contemporaine"
@@ -77,74 +77,74 @@
             image="https://st.depositphotos.com/2665689/4700/i/600/depositphotos_47005213-stock-photo-place-de-comedie-in-montpellier.jpg"
           />
           <card
-            title="Aigües-mortes et la petite Camargue"
+            title="Aigues-Mortes et la petite Camargue"
             price="39"
             nbr="14"
             place="15"
-            image="https://st.depositphotos.com/2665689/4700/i/600/depositphotos_47005213-stock-photo-place-de-comedie-in-montpellier.jpg"
+            image="https://c1.wallpaperflare.com/preview/12/908/45/ramparts-aigues-mortes-france-acute-dead.jpg"
           />
           <card
             title="Saint Guilhem le desert, pont du diable"
             price="45"
             nbr="9"
             place="15"
-            image="https://st.depositphotos.com/2665689/4700/i/600/depositphotos_47005213-stock-photo-place-de-comedie-in-montpellier.jpg"
+            image="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Abbaye_st_guilhem_1.jpg/800px-Abbaye_st_guilhem_1.jpg"
           />
           <card
             title="Sète et le bassin de Thau"
             price="45"
             nbr="17"
             place="15"
-            image="https://st.depositphotos.com/2665689/4700/i/600/depositphotos_47005213-stock-photo-place-de-comedie-in-montpellier.jpg"
+            image="https://live.staticflickr.com/5637/31165684325_6cacb69e69_b.jpg"
           />
           <card
             title="Arles et la Camargue"
             price="45"
             nbr="17"
             place="15"
-            image="https://st.depositphotos.com/2665689/4700/i/600/depositphotos_47005213-stock-photo-place-de-comedie-in-montpellier.jpg"
+            image="https://upload.wikimedia.org/wikipedia/commons/2/23/Arles_Place_de_la_R%C3%A9publique.jpg"
           />
           <card
             title="Avignon et la cité des papes"
             price="45"
             nbr="17"
             place="15"
-            image="https://st.depositphotos.com/2665689/4700/i/600/depositphotos_47005213-stock-photo-place-de-comedie-in-montpellier.jpg"
+            image="https://www.publicdomainpictures.net/pictures/220000/velka/the-popes-palace-in-avignon.jpg"
           />
           <card
             title="Les Baux et Saint Rémy"
             price="45"
             nbr="11"
             place="15"
-            image="https://st.depositphotos.com/2665689/4700/i/600/depositphotos_47005213-stock-photo-place-de-comedie-in-montpellier.jpg"
+            image="https://upload.wikimedia.org/wikipedia/commons/f/f0/Les_Baux-de-Provence_Ch%C3%A2teau_des_Baux_by_Yuan_Hsueh.jpg"
           />
           <card
             title="Uzès et le Pont du Gard"
             price="45"
             nbr="14"
             place="15"
-            image="https://st.depositphotos.com/2665689/4700/i/600/depositphotos_47005213-stock-photo-place-de-comedie-in-montpellier.jpg"
+            image="https://upload.wikimedia.org/wikipedia/commons/3/30/Pont_du_Gard%2C_Languedoc-Roussillon%2C_France_%283679125855%29.jpg"
           />
           <card
             title="Le canal du midi"
             price="45"
             nbr="8"
             place="15"
-            image="https://st.depositphotos.com/2665689/4700/i/600/depositphotos_47005213-stock-photo-place-de-comedie-in-montpellier.jpg"
+            image="https://img-4.linternaute.com/xqTh4t0oXiTJFuyNNzbeLpPJNXY=/fit-in/620x/smart/5c284e199a27490484e73349a9cd23cc/ccmcms-linternaute/11577260.jpg"
           />
           <card
             title="Le pic Saint Loup et ses villages"
             price="29"
             nbr="31"
             place="20"
-            image="https://st.depositphotos.com/2665689/4700/i/600/depositphotos_47005213-stock-photo-place-de-comedie-in-montpellier.jpg"
+            image="https://www.chateau-laroque.fr/wp-content/uploads/2016/06/laroquedupic1-600x300.jpg"
           />
           <card
             title="Carcassone la cité médiévale"
             price="59"
             nbr="3"
             place="15"
-            image="https://st.depositphotos.com/2665689/4700/i/600/depositphotos_47005213-stock-photo-place-de-comedie-in-montpellier.jpg"
+            image="https://upload.wikimedia.org/wikipedia/commons/3/34/La_Cit%C3%A9_de_Carcassonne_%2826422085310%29.jpg"
           />
         </div>
         <div class="pb-6 pt-2 text-gray-500 font-medium text-sm">
