@@ -1,21 +1,49 @@
 <template>
   <Layout>
-    <div class="hero container-inner mx-auto flex flex-col sm:flex-row justify-between py-16">
+    <div
+      class="h-screen container-inner-large mx-auto flex flex-col sm:flex-row justify-around py-24"
+    >
       <div class="font-bold w-full sm:w-3/5 text-center sm:text-left">
         <h1
           class="font-semibold text-gray-900 font-display text-4xl sm:text-5xl lg:text-6xl leading-none font-semibold"
-        >Percez les secret de la région Occitanie</h1>
-        <div
-          class="text-2xl text-pink-500 leading-tight tracking-tight"
-        >Offrez-vous une guide d'élite</div>
-        <div class="text-gray-700 mt-4 leading-relaxed font-light">
+        >Offrez vous une guide d'élite</h1>
+        <h2
+          class="text-pink-500 text-xl lg:text-3xl mt-3"
+        >Et percez les secret de la région occitanie</h2>
+        <div class="text-gray-700 mt-4 leading-relaxed font-light text-lg lg:text-xl">
           Nam luctus, ligula sit amet lacinia congue, quam odio rhoncus ipsum,
           at aliquam metus risus nec erat. Duis dignissim quis libero sit amet
           fermentum.
         </div>
+        <div class="mt-6">
+          <button
+            class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center"
+          >
+            <svg
+              class="fill-current w-4 h-4 mr-2"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+            >
+              <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+            </svg>
+            <span>Plus d'info</span>
+          </button>
+          <button
+            class="ml-3 bg-pink-300 hover:bg-pink-400 hover:text-white text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center"
+          >
+            <svg
+              class="fill-current w-4 h-4 mr-2"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+            >
+              <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+            </svg>
+            <span>Reserver maintenant</span>
+          </button>
+        </div>
       </div>
-      <div class="mt-8 sm:mt-0">
-        <g-image src="../../static/travel.png" alt="hero" class="w-80 mx-auto sm:mx-0" />
+      <div class="flex-1">
+        <g-image src="../../static/travel.png" alt="hero" />
       </div>
     </div>
     <!-- end hero -->
@@ -160,84 +188,6 @@
     <!-- Pricing section  -->
     <pricing />
     <!-- End pricing section -->
-
-    <div class="overflow-x-hidden" id="contact">
-      <div class="contact-me bg-background-secondary pt-24">
-        <div class="container-inner mx-auto text-xl pb-4 relative">
-          <h2 class="font-semibold text-gray-900 text-2xl mb-6">Contactez-moi 🤝</h2>
-          <div class="absolute right-0 top-0" style="transform: translate(100%) rotate(180deg)">
-            <svg width="170px" height="170px">
-              <use xlink:href="#dots-triangle" />
-            </svg>
-          </div>
-
-          <p class="mb-12">
-            Static sites cannot submit forms on their own. However, services
-            like
-            <a
-              href="https://www.netlify.com/docs/form-handling"
-            >Netlify Forms</a>
-            or
-            <a href="https://formspree.io">FormSpree</a> can help you do this
-            without a backend.
-          </p>
-
-          <div class="text-lg sm:text-lg mb-16">
-            <form action="#" class="mb-12">
-              <div class="flex flex-wrap mb-6 -mx-4">
-                <div class="w-full md:w-1/2 mb-6 md:mb-0 px-4">
-                  <label class="block mb-2 text-copy-primary" for="name">Name</label>
-
-                  <input
-                    type="text"
-                    name="name"
-                    id="name"
-                    placeholder="Jon Snow"
-                    class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-pink-600 mb-2 p-4"
-                    required
-                  />
-                </div>
-
-                <div class="w-full px-4 md:w-1/2">
-                  <label class="block text-copy-primary mb-2" for="email">Email Address</label>
-
-                  <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    placeholder="email@example.com"
-                    class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-pink-600 mb-2 p-4"
-                    required
-                  />
-                </div>
-              </div>
-
-              <div class="w-full mb-12">
-                <label class="block text-copy-primary mb-2" for="message">Message</label>
-
-                <textarea
-                  id="message"
-                  rows="5"
-                  name="message"
-                  class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none appearance-none focus:border-pink-600 mb-2 px-4 py-4"
-                  placeholder="Enter your message here."
-                  required
-                ></textarea>
-              </div>
-
-              <div class="flex justify-end w-full">
-                <input
-                  type="submit"
-                  value="Submit"
-                  class="block bg-pink-500 hover:bg-pink-600 text-white text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer px-6 py-3"
-                />
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-      <!-- end contact-me -->
-    </div>
   </Layout>
 </template>
 
