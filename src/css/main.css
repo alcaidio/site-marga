@@ -4,6 +4,12 @@
 
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css?family=Merriweather&display=swap");
+
+.logo-titre {
+  font-family: Merriweather;
+}
+
 .theme-light {
   --bg-background-primary: white;
   --bg-background-secondary: #f7fafc;
@@ -63,7 +69,7 @@ a {
 }
 
 a:hover {
-  @apply text-pink-800;
+  @apply text-pink-500;
 }
 
 nav .active {

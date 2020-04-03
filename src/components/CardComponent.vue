@@ -2,19 +2,23 @@
   <div
     class="inline-block bg-white border rounded-lg overflow-hidden text-gray-900 cursor-pointer shadow-md mr-4"
   >
-    <img
-      src="https://st.depositphotos.com/2665689/4700/i/600/depositphotos_47005213-stock-photo-place-de-comedie-in-montpellier.jpg"
-      class="max-w-sm"
-    />
+    <g-image :src="image" class="max-w-sm" />
     <div class="p-6">
       <div class="flex items-baseline">
         <span
           class="inline-block bg-pink-300 text-pink-700 text-xs px-2 rounded-full font-semibold uppercase mr-2"
-        >Nouveau</span>
-        <div class="text-gray-600 uppercase text-xs font-semibold tracking-wide">{{ place }} places</div>
+          >Nouveau</span
+        >
+        <div
+          class="text-gray-600 uppercase text-xs font-semibold tracking-wide"
+        >
+          {{ place }} places
+        </div>
       </div>
-      <h4 class="mt-2 font-semibold text-lg leading-tight hover:opacity-75">{{ title }}</h4>
-      <div class>
+      <h4 class="mt-2 font-semibold text-lg leading-tight hover:opacity-75">
+        {{ title }}
+      </h4>
+      <div class="text-base">
         Journée entière &bull;
         {{ price }} €
         <span class="text-gray-600 text-sm">/ pers</span>
@@ -46,7 +50,9 @@
               d="M8.128 19.825a1.586 1.586 0 0 1-1.643-.117 1.543 1.543 0 0 1-.53-.662 1.515 1.515 0 0 1-.096-.837l.736-4.247-3.13-3a1.514 1.514 0 0 1-.39-1.569c.09-.271.254-.513.475-.698.22-.185.49-.306.776-.35L8.66 7.73l1.925-3.862c.128-.26.328-.48.577-.633a1.584 1.584 0 0 1 1.662 0c.25.153.45.373.577.633l1.925 3.847 4.334.615c.29.042.562.162.785.348.224.186.39.43.48.704a1.514 1.514 0 0 1-.404 1.58l-3.13 3 .736 4.247c.047.282.014.572-.096.837-.111.265-.294.494-.53.662a1.582 1.582 0 0 1-1.643.117l-3.865-2-3.865 2z"
             />
           </svg>
-          <span class="text-gray-600 text-sm ml-2">(basée sur {{ nbr }} votes)</span>
+          <span class="text-gray-600 text-sm ml-2"
+            >(basée sur {{ nbr }} votes)</span
+          >
         </div>
       </div>
     </div>
@@ -61,10 +67,10 @@ export default {
   },
   props: {
     title: String,
-    price: Number,
-    nbr: Number,
-    place: Number,
-    tag: Boolean
+    price: String,
+    nbr: String,
+    place: String,
+    image: String
   },
   components: {}
 };

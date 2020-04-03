@@ -7,8 +7,8 @@
       <nav
         class="container mx-auto flex flex-wrap justify-between items-center py-8"
       >
-        <div class="text-2xl font-medium antialiased">
-          Margalaguía
+        <div class="text-2xl font-normal">
+          <a href="/" class="text-gray-800 logo-titre">Margalaguía</a>
           <!-- <g-link v-if="theme === 'theme-light'" to="/"
             ><g-image src="../../static/logo.svg" class="w-40" alt="logo"
           /></g-link>
@@ -44,21 +44,18 @@
             <search-input />
           </li>
           <li class="mr-8 mb-6 lg:mb-0">
-            <theme-switcher :theme="theme" @themeChanged="updateTheme" />
-          </li>
-          <li class="mr-8 mb-6 lg:mb-0">
             <a
               v-if="$route.path === '/'"
-              href="/#projects"
-              v-scroll-to="'#projects'"
+              href="/#visites"
+              v-scroll-to="'#visites'"
               class="text-copy-primary hover:text-gray-600"
-              >Projects</a
+              >Visites</a
             >
             <g-link
               v-else
-              to="/#projects"
+              to="/#visites"
               class="text-copy-primary hover:text-gray-600"
-              >Projects</g-link
+              >Visites</g-link
             >
           </li>
           <li class="mr-8 mb-6 lg:mb-0">
@@ -67,13 +64,13 @@
               href="/#about"
               v-scroll-to="'#about'"
               class="text-copy-primary hover:text-gray-600"
-              >About</a
+              >A propos</a
             >
             <g-link
               v-else
               to="/#about"
               class="text-copy-primary hover:text-gray-600"
-              >About</g-link
+              >A propos</g-link
             >
           </li>
           <li class="mr-8 mb-6 lg:mb-0">
@@ -111,8 +108,7 @@
           class="mb-8 lg:mb-0 sm:hidden:flex sm:hidden:flex-col sm:hidden:items-center"
         >
           <div>
-            Copyright {{ new Date().getFullYear() }}. Tous les droits sont
-            réservés.
+            Tous droits réservés. Copyright {{ new Date().getFullYear() }}.
           </div>
           <div class="flex items-center">
             Made with love by

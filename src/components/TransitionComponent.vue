@@ -1,8 +1,9 @@
 <template>
   <div>
     <button
-      class="bg-green-900 hover:bg-green-800 text-white px-4 py-2 rounded"
-      @click="show = !show">
+      class="bg-pink-700 hover:bg-pink-600 text-white px-4 py-2 rounded"
+      @click="show = !show"
+    >
       Toggle
     </button>
     <transition name="fade">
@@ -16,17 +17,19 @@ export default {
   data() {
     return {
       show: true
-    }
+    };
   }
-}
+};
 </script>
 
 <style scoped>
-  .fade-enter-active, .fade-leave-active {
-    transition: opacity .5s;
-  }
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
 
-  .fade-enter, .fade-leave-to {
-    opacity: 0;
-  }
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
 </style>

@@ -7,6 +7,7 @@
       :price="visite.price"
       :nbr="visite.nbr"
       :place="visite.place"
+      :image="visite.image"
     />
   </div>
 </template>
@@ -22,25 +23,33 @@ export default {
           title: "Ballade urbaine à travers les âges",
           price: 29,
           nbr: 42,
-          place: 12
+          place: 12,
+          image:
+            "https://st.depositphotos.com/2665689/4700/i/600/depositphotos_47005213-stock-photo-place-de-comedie-in-montpellier.jpg"
         },
         {
           title: "Ballade urbaine à travers les âges",
           price: 29,
           nbr: 42,
-          place: 12
+          place: 12,
+          image:
+            "https://st.depositphotos.com/2665689/4700/i/600/depositphotos_47005213-stock-photo-place-de-comedie-in-montpellier.jpg"
         },
         {
           title: "Ballade urbaine à travers les âges",
           price: 29,
           nbr: 42,
-          place: 12
+          place: 12,
+          image:
+            "https://st.depositphotos.com/2665689/4700/i/600/depositphotos_47005213-stock-photo-place-de-comedie-in-montpellier.jpg"
         },
         {
           title: "Ballade urbaine à travers les âges",
           price: 29,
           nbr: 42,
-          place: 12
+          place: 12,
+          image:
+            "https://st.depositphotos.com/2665689/4700/i/600/depositphotos_47005213-stock-photo-place-de-comedie-in-montpellier.jpg"
         }
       ]
     };
