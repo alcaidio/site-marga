@@ -8,10 +8,14 @@
           En voiture simone !
         </h1>
         <p
-          class="mt-2 max-w-xl mx-auto text-xl leading-7 lg:max-w-3xl lg:text-2xl lg:leading-8 text-pink-100"
+          class="mt-2 max-w-xl mx-auto text-xl font-thin leading-7 lg:max-w-3xl lg:text-2xl lg:leading-8 text-pink-100"
         >
-          Duis dignissim quis libero sit amet fermentum, ligula sit amet lacinia
-          ligula sit amet lacinia congue.
+          Des <span class="font-extrabold">ballades oeunologique</span> aux
+          <span class="font-extrabold">découvertes sportives</span> en passant
+          par les <span class="font-extrabold">visites thématiques</span> ou
+          même les
+          <span class="font-extrabold">rando "culture nature"</span> vous n'êtes
+          pas prêt de vous ennuyer !
         </p>
       </div>
     </div>
@@ -30,7 +34,7 @@
                   <div class="flex justify-center transform -translate-y-1/2">
                     <span
                       class="inline-flex rounded-full bg-pink-400 px-4 py-1 text-sm leading-5 font-semibold tracking-wider uppercase text-white"
-                      >Get both packages</span
+                      >Special office</span
                     >
                   </div>
                 </div>
@@ -44,27 +48,27 @@
                     <h2
                       class="mt-2 text-center text-3xl leading-9 font-semibold font-display text-gray-900 sm:-mx-6"
                     >
-                      Application UI + Marketing
+                      Méga groupe
                     </h2>
                     <div
                       class="mt-4 flex items-center justify-center font-display"
                     >
                       <span
                         class="-ml-8 text-right text-2xl leading-8 font-semibold text-gray-400 tracking-wide line-through sm:text-3xl sm:leading-9"
-                        >$298</span
+                        >€350</span
                       >
                       <span
                         class="px-3 flex items-start text-6xl leading-none tracking-tight font-medium text-gray-900 sm:text-7xl"
                       >
                         <span
                           class="mt-2 mr-1 text-4xl leading-none sm:text-5xl"
-                          >$</span
+                          >€</span
                         >
                         <span>249</span>
                       </span>
                       <span
                         class="text-2xl leading-8 font-semibold text-gray-400 tracking-wide sm:text-3xl sm:leading-9"
-                        >USD</span
+                        >EUR</span
                       >
                     </div>
                   </div>
@@ -243,7 +247,7 @@
                     <h2
                       class="mt-2 text-center text-3xl leading-9 font-semibold font-display text-gray-900"
                     >
-                      Application UI
+                      Groupe simple
                     </h2>
                     <div
                       class="mt-4 flex items-center justify-center font-display"
@@ -256,7 +260,7 @@
                       </span>
                       <span
                         class="text-2xl leading-8 font-semibold text-gray-400 tracking-wide"
-                        >USD</span
+                        >EUR</span
                       >
                     </div>
                   </div>
@@ -403,7 +407,7 @@
                     <h2
                       class="mt-2 text-center text-3xl leading-9 font-semibold font-display text-gray-900"
                     >
-                      Marketing
+                      En privée
                     </h2>
                     <div
                       class="mt-4 flex items-center justify-center font-display"
@@ -416,7 +420,7 @@
                       </span>
                       <span
                         class="text-2xl leading-8 font-semibold text-gray-400 tracking-wide"
-                        >USD</span
+                        >EUR</span
                       >
                     </div>
                   </div>

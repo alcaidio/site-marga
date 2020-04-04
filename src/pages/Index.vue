@@ -10,12 +10,14 @@
           Laissez vous guider
         </h1>
         <h2 class="text-pink-500 text-xl lg:text-3xl mt-3">
-          Et percez les secrets de la région Occitanie jusqu'à la Provence
+          Et percez les secrets de la région Occitanie jusqu'à la Provence 🧭
         </h2>
         <div
           class="text-gray-700 mt-4 leading-relaxed font-light text-lg lg:text-xl"
         >
-          Visitez des .
+          Vous rêvez d’explorer le Sud, le Patrimoine historique, artistique et
+          culturel vous intéresse ? Venez parcourir plus de 2000 ans
+          d’Histoire !
         </div>
         <div class="mt-6 pb-3">
           <button
@@ -43,7 +45,7 @@
           </button>
         </div>
       </div>
-      <div class="flex-1">
+      <div class="dyn flex-1">
         <g-image src="../../static/travel.png" alt="hero" />
       </div>
     </div>
@@ -67,20 +69,23 @@
             price="39"
             nbr="12"
             place="20"
+            :star="5"
             image="https://upload.wikimedia.org/wikipedia/commons/6/67/Arenes_de_Nimes_panorama.jpg"
           />
           <card
-            title="Montpellier historique et contemporaine"
+            title="Montpellier centre historique"
             price="29"
             nbr="44"
             place="20"
+            :star="5"
             image="https://st.depositphotos.com/2665689/4700/i/600/depositphotos_47005213-stock-photo-place-de-comedie-in-montpellier.jpg"
           />
           <card
-            title="Aigues-Mortes et la petite Camargue"
+            title="Aigues-Mortes et la camargue"
             price="39"
             nbr="14"
             place="15"
+            :star="3"
             image="https://c1.wallpaperflare.com/preview/12/908/45/ramparts-aigues-mortes-france-acute-dead.jpg"
           />
           <card
@@ -88,6 +93,7 @@
             price="45"
             nbr="9"
             place="15"
+            :star="5"
             image="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Abbaye_st_guilhem_1.jpg/800px-Abbaye_st_guilhem_1.jpg"
           />
           <card
@@ -95,6 +101,7 @@
             price="45"
             nbr="17"
             place="15"
+            :star="4"
             image="https://live.staticflickr.com/5637/31165684325_6cacb69e69_b.jpg"
           />
           <card
@@ -102,6 +109,7 @@
             price="45"
             nbr="17"
             place="15"
+            :star="4"
             image="https://upload.wikimedia.org/wikipedia/commons/2/23/Arles_Place_de_la_R%C3%A9publique.jpg"
           />
           <card
@@ -109,6 +117,7 @@
             price="45"
             nbr="17"
             place="15"
+            :star="5"
             image="https://www.publicdomainpictures.net/pictures/220000/velka/the-popes-palace-in-avignon.jpg"
           />
           <card
@@ -116,6 +125,7 @@
             price="45"
             nbr="11"
             place="15"
+            :star="4"
             image="https://upload.wikimedia.org/wikipedia/commons/f/f0/Les_Baux-de-Provence_Ch%C3%A2teau_des_Baux_by_Yuan_Hsueh.jpg"
           />
           <card
@@ -123,6 +133,7 @@
             price="45"
             nbr="14"
             place="15"
+            :star="5"
             image="https://upload.wikimedia.org/wikipedia/commons/3/30/Pont_du_Gard%2C_Languedoc-Roussillon%2C_France_%283679125855%29.jpg"
           />
           <card
@@ -130,6 +141,7 @@
             price="45"
             nbr="8"
             place="15"
+            :star="5"
             image="https://img-4.linternaute.com/xqTh4t0oXiTJFuyNNzbeLpPJNXY=/fit-in/620x/smart/5c284e199a27490484e73349a9cd23cc/ccmcms-linternaute/11577260.jpg"
           />
           <card
@@ -137,6 +149,7 @@
             price="29"
             nbr="31"
             place="20"
+            :star="5"
             image="https://www.chateau-laroque.fr/wp-content/uploads/2016/06/laroquedupic1-600x300.jpg"
           />
           <card
@@ -144,6 +157,7 @@
             price="59"
             nbr="3"
             place="15"
+            :star="4"
             image="https://upload.wikimedia.org/wikipedia/commons/3/34/La_Cit%C3%A9_de_Carcassonne_%2826422085310%29.jpg"
           />
         </div>
@@ -223,29 +237,30 @@
         Margareth Alcaide
       </h2>
       <p class="text-gray-600 text-xl lg:text-2xl">
-        Guide touristique lorem ipsum dolor sit amet consectetur.
+        Guide conférencière passionné d'histoire et de culture 🇮🇹🇫🇷🇪🇸🏴󠁧󠁢󠁥󠁮󠁧󠁿🇺🇸
       </p>
-      <div class="flex flex-row items-center mt-12">
-        <div class="font-bold w-full sm:w-3/5 sm:text-left">
+      <div class="flex flex-col md:flex-row mt-12">
+        <div class="font-bold w-full sm:w-3/5 sm:text-left mx-auto">
           <g-image
             src="../../static/marga.jpg"
-            alt="avatar"
-            class="w-48 mx-auto sm:mx-0 rounded-lg shadow-lg mx-auto sm:mx-0 rounded-xl mb-8 lg:mb-0 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 cursor-pointer"
+            alt="margareth"
+            class="mt-2 sm:mx-0 rounded-lg shadow-lg sm:mx-0 rounded-xl mb-8 lg:mb-0"
           />
         </div>
-        <div class="text-lg sm:text-xl ml-12 leading-relaxed">
-          <p class="mb-3">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum quae
-            architecto minus molestias iusto ducimus fuga quo quia libero
-            dignissimos, fugiat modi assumenda debitis laboriosam.
-          </p>
-          <p class="mb-3">
-            Eum quae architecto minus molestias iusto ducimus fuga quo quia
-            libero, fugiat modi assumenda debitis laboriosam.
-          </p>
+        <div class="text-lg sm:text-xl sm:ml-12 leading-relaxed">
           <p>
-            Eum quae architecto minus molestias iusto ducimus fuga quo quia
-            libero, fugiat modi assumenda debitis laboriosam.
+            Je propose des visites guidées en Occitanie et Provence pour tous
+            les publics qu’il soient locaux ou internationaux. Je guide en
+            français, espagnol, anglais et italien.
+          </p>
+          <p class="mt-2">
+            La découverte de spécialités locales permet de tisser des liens
+            humains.
+          </p>
+          <p class="mt-2">
+            Pour être au cœur des lieux visités, rencontrer des acteurs locaux
+            contribue à percer quelques secrets et connaître les traditions et
+            cultures.
           </p>
         </div>
       </div>
@@ -257,16 +272,23 @@
           <g-image src="../../static/business.png" alt="business" />
         </div>
       </div>
-      <p class="text-lg sm:text-xl">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris egestas
-        ultrices velit, et aliquam tellus rhoncus eu. Nullam vulputate mauris
-        libero, eu ornare lacus pharetra et. Curabitur vel scelerisque elit.
-        Fusce eget aliquet diam. Suspendisse potenti.
-      </p>
+      <div class="text-lg sm:text-xl leading-relaxed">
+        <p>
+          Avide d’anecdotes, de petites histoires , j’aime les raconter en
+          éveillant la curiosité des différents publics que je guide et
+          accompagne !
+        </p>
+        <p class="mt-2">
+          Mes visites se veulent interactives, diversifiées et dynamiques.
+          J'exerce mon métier avec passion et transmettre ma curiosité mes
+          connaissances des territoires. La Nature reste essentielle dans la
+          plupart des balades que je propose.
+        </p>
+      </div>
       <div class="responsive-container mt-8">
         <iframe
           class="responsive-iframe w-full h-full top-0 left-0 border-0"
-          src="https://www.youtube.com/embed/ZIgya1ADwas"
+          src="https://www.youtube.com/embed/x5DP_NC-srE"
           style="border: 0;"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
@@ -287,62 +309,52 @@
             Ce qu'ils en pensent
           </h2>
           <p class="text-gray-600 text-xl lg:text-2xl">
-            Duis dignissim quis libero sit amet fermentum, ligula sit amet
-            lacinia congue.
+            Merci à tous de me permettre de vous transmettre ma passion ♥️
           </p>
         </div>
-        <div class="flex flex-col md:flex-row items-center mt-4">
+        <div class="move flex flex-row items-center mt-4">
           <testimonial
             class="mt-8 mr-6"
-            name="Justin Jackson"
-            text="“We’ve gone through several iterations of our pricing page recently, and every time we wanted to try a new idea I was able to find the perfect starting point in Tailwind UI.”"
+            name="Manu Durand"
+            text="“Merci pour cette magnifique journée très instructive et forte agréable !”"
             image="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"
           />
           <testimonial
             class="mt-8 mr-6"
-            name="Justin Jackson"
-            text="“We’ve gone through several iterations of our pricing page recently, and every time we wanted to try a new idea I was able to find the perfect starting point in Tailwind UI.”"
+            name="Justine Orwell"
+            text="“Très instructif on ne connaissait pas cette magnifique ville et merci pour
+          cette fantastique visite”"
             image="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"
           />
           <testimonial
             class="mt-8 mr-6"
-            name="Justin Jackson"
-            text="“We’ve gone through several iterations of our pricing page recently, and every time we wanted to try a new idea I was able to find the perfect starting point in Tailwind UI.”"
+            name="Xavier Laurent"
+            text="“Notre guide Margareth a mené une passionnante conférence sur le tableau des Ménines de Velazquez à la Gazette Café un grand merci à elle.”"
             image="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"
           />
         </div>
       </div>
     </div>
 
-    <div class="bg-gray-50">
-      <div
-        class="container-inner max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between"
+    <div
+      class="bg-white container-inner flex flex-col mx-auto py-24 px-4 items-center lg:items-start justify-around"
+    >
+      <h2
+        class="text-center text-3xl leading-9 font-extrabold tracking-tight text-pink-600 sm:text-4xl sm:leading-10"
       >
-        <h2
-          class="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10"
-        >
-          Prêt pour l'aventure ?
-          <br />
-          <span class="text-pink-600">07 67 50 30 66.</span>
-        </h2>
-        <div class="mt-8 flex lg:flex-shrink-0 lg:mt-0">
-          <div class="inline-flex rounded-md shadow">
-            <a
-              href="#"
-              class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-pink-600 hover:bg-pink-700 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
-            >
-              Réserver
-            </a>
-          </div>
-          <div class="ml-3 inline-flex rounded-md shadow">
-            <a
-              href="#"
-              class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-pink-600 bg-white hover:bg-pink-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
-            >
-              Contacter
-            </a>
-          </div>
-        </div>
+        Prêt pour commencer l'aventure ?
+      </h2>
+      <div class="text-2xl text-gray-900 tracking-tight font-medium">
+        07 67 50 30 66 📲
+      </div>
+      <div class="mt-6 flex lg:flex-shrink-0">
+        <a href="https://tailwindcss.com/docs/responsive-design/#app">
+          <button
+            class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center"
+          >
+            Contactez moi 🤝
+          </button>
+        </a>
       </div>
     </div>
 
@@ -355,37 +367,18 @@
             Les derniers articles
           </h2>
           <p class="text-gray-600 text-xl lg:text-2xl">
-            Suivez l'actualité, les astuces et blababbalalbl.
+            Suivez l'actualité pour en savoir un peu plus sur
+            <span class="font-semibold">Margalaguia</span> 👀
           </p>
         </div>
         <div class="overflow-x-scroll whitespace-no-wrap pb-8">
-          <card
-            title="Ballade urbaine à travers les âges"
-            price="29"
-            nbr="42"
-            place="12"
-            image="https://st.depositphotos.com/2665689/4700/i/600/depositphotos_47005213-stock-photo-place-de-comedie-in-montpellier.jpg"
-          />
-          <card
-            title="Ballade urbaine à travers les âges"
-            price="29"
-            nbr="42"
-            place="12"
-            image="https://st.depositphotos.com/2665689/4700/i/600/depositphotos_47005213-stock-photo-place-de-comedie-in-montpellier.jpg"
-          />
-          <card
-            title="Ballade urbaine à travers les âges"
-            price="29"
-            nbr="42"
-            place="12"
-            image="https://st.depositphotos.com/2665689/4700/i/600/depositphotos_47005213-stock-photo-place-de-comedie-in-montpellier.jpg"
-          />
-          <card
-            title="Ballade urbaine à travers les âges"
-            price="29"
-            nbr="42"
-            place="12"
-            image="https://st.depositphotos.com/2665689/4700/i/600/depositphotos_47005213-stock-photo-place-de-comedie-in-montpellier.jpg"
+          <post
+            v-for="post in $page.posts.edges"
+            :key="post.id"
+            :title="post.node.title"
+            :date="post.node.date"
+            :link="post.node.path"
+            :tag="post.node"
           />
         </div>
       </div>
@@ -401,6 +394,7 @@
 import CardComponent from "../components/CardComponent";
 import TestimonialComponent from "../components/TestimonialComponent";
 import PricingComponent from "../components/PricingComponent";
+import PostComponent from "../components/PostComponent";
 export default {
   metaInfo: {
     title: "Home",
@@ -409,6 +403,54 @@ export default {
     card: CardComponent,
     testimonial: TestimonialComponent,
     pricing: PricingComponent,
+    post: PostComponent,
   },
 };
 </script>
+
+<page-query>
+query Posts ($page: Int) {
+  posts: allPost (sortBy: "date", order: DESC, perPage: 5, page: $page) @paginate {
+    totalCount
+    pageInfo {
+      totalPages
+      currentPage
+    }
+    edges {
+      node {
+        id
+        title
+        date (format: "MMMM D, Y")
+        summary
+        timeToRead
+        path
+      }
+    }
+  }
+}
+</page-query>
+
+<style>
+@media (max-width: 640px) {
+  .move {
+    animation: 10s linear infinite alternate translate;
+  }
+}
+
+@keyframes translate {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-200vw, 0);
+  }
+}
+
+.dyn img {
+  transition: transform 0.5s ease-in-out;
+}
+
+.dyn:hover img {
+  transform: translateX(5%) translateY(-5%);
+}
+</style>

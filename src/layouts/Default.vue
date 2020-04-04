@@ -88,12 +88,12 @@
             Tous droits réservés. Copyright {{ new Date().getFullYear() }}.
           </div>
           <div class="flex items-center">
-            Made with love by
+            Fait avec 💙par
             <a
               href="https://www.linkedin.com/in/timothyalcaide/"
               target="_blank"
               class="ml-1 text-white font-normal hover:text-gray-400"
-              >Timothy</a
+              >Tim 👦🏻</a
             >
           </div>
           <div>
@@ -152,7 +152,7 @@
       </div>
     </footer>
 
-    <div style="display:none">
+    <div style="display: none;">
       <svg
         id="dots-triangle"
         width="170"
@@ -185,7 +185,7 @@ import ThemeSwitcher from "../components/ThemeSwitcher";
 export default {
   components: {
     SearchInput,
-    ThemeSwitcher
+    ThemeSwitcher,
   },
   mounted() {
     this.theme = localStorage.getItem("theme") || "theme-light";
@@ -193,7 +193,7 @@ export default {
   data() {
     return {
       isOpen: false,
-      theme: ""
+      theme: "",
     };
   },
   methods: {
@@ -202,8 +202,8 @@ export default {
     },
     updateTheme(theme) {
       this.theme = theme;
-    }
-  }
+    },
+  },
 };
 </script>
 
