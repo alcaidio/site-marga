@@ -4,15 +4,15 @@
       <div class="text-center">
         <h1
           class="mt-9 font-display text-4xl sm:text-5xl lg:text-5xl leading-none font-semibold text-white"
-        >
-          En voiture simone !
-        </h1>
+        >En voiture simone !</h1>
         <p
           class="mt-2 max-w-xl mx-auto text-xl font-thin leading-7 lg:max-w-3xl lg:text-2xl lg:leading-8 text-pink-100"
         >
-          Des <span class="font-extrabold">ballades oeunologique</span> aux
+          Des
+          <span class="font-extrabold">balades oeunologiques</span> aux
           <span class="font-extrabold">découvertes sportives</span> en passant
-          par les <span class="font-extrabold">visites thématiques</span> ou
+          par les
+          <span class="font-extrabold">visites thématiques</span> ou
           même les
           <span class="font-extrabold">rando "culture nature"</span> vous n'êtes
           pas prêt de vous ennuyer !
@@ -34,42 +34,30 @@
                   <div class="flex justify-center transform -translate-y-1/2">
                     <span
                       class="inline-flex rounded-full bg-pink-400 px-4 py-1 text-sm leading-5 font-semibold tracking-wider uppercase text-white"
-                      >Special office</span
-                    >
+                    >Special office</span>
                   </div>
                 </div>
                 <div class="bg-white rounded-t-lg px-6 pt-12 pb-10">
                   <div>
                     <p
                       class="text-center text-lg leading-7 font-semibold font-display text-pink-500 uppercase tracking-widest"
-                    >
-                      Bundle
-                    </p>
+                    >Bundle</p>
                     <h2
                       class="mt-2 text-center text-3xl leading-9 font-semibold font-display text-gray-900 sm:-mx-6"
-                    >
-                      Méga groupe
-                    </h2>
-                    <div
-                      class="mt-4 flex items-center justify-center font-display"
-                    >
+                    >Méga groupe</h2>
+                    <div class="mt-4 flex items-center justify-center font-display">
                       <span
                         class="-ml-8 text-right text-2xl leading-8 font-semibold text-gray-400 tracking-wide line-through sm:text-3xl sm:leading-9"
-                        >€350</span
-                      >
+                      >€350</span>
                       <span
                         class="px-3 flex items-start text-6xl leading-none tracking-tight font-medium text-gray-900 sm:text-7xl"
                       >
-                        <span
-                          class="mt-2 mr-1 text-4xl leading-none sm:text-5xl"
-                          >€</span
-                        >
+                        <span class="mt-2 mr-1 text-4xl leading-none sm:text-5xl">€</span>
                         <span>249</span>
                       </span>
                       <span
                         class="text-2xl leading-8 font-semibold text-gray-400 tracking-wide sm:text-3xl sm:leading-9"
-                        >EUR</span
-                      >
+                      >EUR</span>
                     </div>
                   </div>
                 </div>
@@ -95,9 +83,7 @@
                       </div>
                       <p
                         class="ml-3 text-base leading-6 font-medium text-gray-500"
-                      >
-                        All application UI components
-                      </p>
+                      >All application UI components</p>
                     </li>
                     <li class="mt-4 flex items-start">
                       <div class="flex-shrink-0">
@@ -117,9 +103,25 @@
                       </div>
                       <p
                         class="ml-3 text-base leading-6 font-medium text-gray-500"
-                      >
-                        All marketing components
-                      </p>
+                      >All marketing components</p>
+                    </li>
+                    <li class="mt-4 flex items-start">
+                      <div class="flex-shrink-0">
+                        <svg
+                          class="h-6 w-6 text-pink-500"
+                          stroke="currentColor"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M5 13l4 4L19 7"
+                          />
+                        </svg>
+                      </div>
+                      <p class="ml-3 text-base leading-6 font-medium text-gray-500">Lifetime access</p>
                     </li>
                     <li class="mt-4 flex items-start">
                       <div class="flex-shrink-0">
@@ -139,31 +141,7 @@
                       </div>
                       <p
                         class="ml-3 text-base leading-6 font-medium text-gray-500"
-                      >
-                        Lifetime access
-                      </p>
-                    </li>
-                    <li class="mt-4 flex items-start">
-                      <div class="flex-shrink-0">
-                        <svg
-                          class="h-6 w-6 text-pink-500"
-                          stroke="currentColor"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M5 13l4 4L19 7"
-                          />
-                        </svg>
-                      </div>
-                      <p
-                        class="ml-3 text-base leading-6 font-medium text-gray-500"
-                      >
-                        Use on unlimited projects
-                      </p>
+                      >Use on unlimited projects</p>
                     </li>
                     <li class="mt-4 flex items-start">
                       <div class="flex-shrink-0">
@@ -183,9 +161,7 @@
                       </div>
                       <p
                         class="ml-3 text-base leading-6 font-medium text-gray-500 whitespace-no-wrap"
-                      >
-                        Free updates
-                      </p>
+                      >Free updates</p>
                     </li>
                     <li class="mt-4 flex items-start">
                       <div class="flex-shrink-0">
@@ -205,9 +181,7 @@
                       </div>
                       <p
                         class="ml-3 text-base leading-6 font-medium text-gray-500 whitespace-no-wrap"
-                      >
-                        Community access
-                      </p>
+                      >Community access</p>
                     </li>
                   </ul>
                   <div class="mt-10">
@@ -217,18 +191,14 @@
                         data-gumroad-single-product="true"
                         class="block w-full text-center rounded-lg bg-gray-800 px-6 py-4 text-xl leading-6 font-semibold font-display text-white hover:bg-gray-700 focus:outline-none focus:shadow-outline transition ease-in-out duration-150"
                         target="_blank"
-                        >Buy Early Access</a
-                      >
+                      >Buy Early Access</a>
                     </div>
-                    <p
-                      class="mt-6 text-center text-base leading-6 font-medium text-gray-900"
-                    >
+                    <p class="mt-6 text-center text-base leading-6 font-medium text-gray-900">
                       Buying for your team?
                       <a
                         href="#team-pricing"
                         class="text-pink-500 font-semibold hover:underline"
-                        >View team pricing →</a
-                      >
+                      >View team pricing →</a>
                     </p>
                   </div>
                 </div>
@@ -246,22 +216,15 @@
                   <div>
                     <h2
                       class="mt-2 text-center text-3xl leading-9 font-semibold font-display text-gray-900"
-                    >
-                      Groupe simple
-                    </h2>
-                    <div
-                      class="mt-4 flex items-center justify-center font-display"
-                    >
+                    >Groupe simple</h2>
+                    <div class="mt-4 flex items-center justify-center font-display">
                       <span
                         class="px-3 flex items-start text-6xl leading-none tracking-tight font-medium text-gray-900"
                       >
                         <span class="mt-2 mr-2 text-4xl">$</span>
                         <span>149</span>
                       </span>
-                      <span
-                        class="text-2xl leading-8 font-semibold text-gray-400 tracking-wide"
-                        >EUR</span
-                      >
+                      <span class="text-2xl leading-8 font-semibold text-gray-400 tracking-wide">EUR</span>
                     </div>
                   </div>
                 </div>
@@ -287,9 +250,25 @@
                       </div>
                       <p
                         class="ml-3 text-base leading-6 font-medium text-gray-500"
-                      >
-                        All application UI components
-                      </p>
+                      >All application UI components</p>
+                    </li>
+                    <li class="mt-4 flex items-start">
+                      <div class="flex-shrink-0">
+                        <svg
+                          class="h-6 w-6 text-pink-500"
+                          stroke="currentColor"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M5 13l4 4L19 7"
+                          />
+                        </svg>
+                      </div>
+                      <p class="ml-3 text-base leading-6 font-medium text-gray-500">Lifetime access</p>
                     </li>
                     <li class="mt-4 flex items-start">
                       <div class="flex-shrink-0">
@@ -309,9 +288,7 @@
                       </div>
                       <p
                         class="ml-3 text-base leading-6 font-medium text-gray-500"
-                      >
-                        Lifetime access
-                      </p>
+                      >Use on unlimited projects</p>
                     </li>
                     <li class="mt-4 flex items-start">
                       <div class="flex-shrink-0">
@@ -329,11 +306,7 @@
                           />
                         </svg>
                       </div>
-                      <p
-                        class="ml-3 text-base leading-6 font-medium text-gray-500"
-                      >
-                        Use on unlimited projects
-                      </p>
+                      <p class="ml-3 text-base leading-6 font-medium text-gray-500">Free updates</p>
                     </li>
                     <li class="mt-4 flex items-start">
                       <div class="flex-shrink-0">
@@ -351,33 +324,7 @@
                           />
                         </svg>
                       </div>
-                      <p
-                        class="ml-3 text-base leading-6 font-medium text-gray-500"
-                      >
-                        Free updates
-                      </p>
-                    </li>
-                    <li class="mt-4 flex items-start">
-                      <div class="flex-shrink-0">
-                        <svg
-                          class="h-6 w-6 text-pink-500"
-                          stroke="currentColor"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M5 13l4 4L19 7"
-                          />
-                        </svg>
-                      </div>
-                      <p
-                        class="ml-3 text-base leading-6 font-medium text-gray-500"
-                      >
-                        Community access
-                      </p>
+                      <p class="ml-3 text-base leading-6 font-medium text-gray-500">Community access</p>
                     </li>
                   </ul>
                   <div class="mt-8">
@@ -387,8 +334,7 @@
                         data-gumroad-single-product="true"
                         class="block w-full text-center rounded-lg bg-white px-6 py-3 text-base leading-6 font-semibold font-display text-pink-600 hover:text-pink-500 focus:outline-none focus:shadow-outline transition ease-in-out duration-150"
                         target="_blank"
-                        >Buy Early Access</a
-                      >
+                      >Buy Early Access</a>
                     </div>
                   </div>
                 </div>
@@ -406,22 +352,15 @@
                   <div>
                     <h2
                       class="mt-2 text-center text-3xl leading-9 font-semibold font-display text-gray-900"
-                    >
-                      En privée
-                    </h2>
-                    <div
-                      class="mt-4 flex items-center justify-center font-display"
-                    >
+                    >En privée</h2>
+                    <div class="mt-4 flex items-center justify-center font-display">
                       <span
                         class="px-3 flex items-start text-6xl leading-none tracking-tight font-medium text-gray-900"
                       >
                         <span class="mt-2 mr-2 text-4xl">$</span>
                         <span>149</span>
                       </span>
-                      <span
-                        class="text-2xl leading-8 font-semibold text-gray-400 tracking-wide"
-                        >EUR</span
-                      >
+                      <span class="text-2xl leading-8 font-semibold text-gray-400 tracking-wide">EUR</span>
                     </div>
                   </div>
                 </div>
@@ -447,9 +386,25 @@
                       </div>
                       <p
                         class="ml-3 text-base leading-6 font-medium text-gray-500"
-                      >
-                        All marketing components
-                      </p>
+                      >All marketing components</p>
+                    </li>
+                    <li class="mt-4 flex items-start">
+                      <div class="flex-shrink-0">
+                        <svg
+                          class="h-6 w-6 text-pink-500"
+                          stroke="currentColor"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M5 13l4 4L19 7"
+                          />
+                        </svg>
+                      </div>
+                      <p class="ml-3 text-base leading-6 font-medium text-gray-500">Lifetime access</p>
                     </li>
                     <li class="mt-4 flex items-start">
                       <div class="flex-shrink-0">
@@ -469,9 +424,7 @@
                       </div>
                       <p
                         class="ml-3 text-base leading-6 font-medium text-gray-500"
-                      >
-                        Lifetime access
-                      </p>
+                      >Use on unlimited projects</p>
                     </li>
                     <li class="mt-4 flex items-start">
                       <div class="flex-shrink-0">
@@ -489,11 +442,7 @@
                           />
                         </svg>
                       </div>
-                      <p
-                        class="ml-3 text-base leading-6 font-medium text-gray-500"
-                      >
-                        Use on unlimited projects
-                      </p>
+                      <p class="ml-3 text-base leading-6 font-medium text-gray-500">Free updates</p>
                     </li>
                     <li class="mt-4 flex items-start">
                       <div class="flex-shrink-0">
@@ -511,33 +460,7 @@
                           />
                         </svg>
                       </div>
-                      <p
-                        class="ml-3 text-base leading-6 font-medium text-gray-500"
-                      >
-                        Free updates
-                      </p>
-                    </li>
-                    <li class="mt-4 flex items-start">
-                      <div class="flex-shrink-0">
-                        <svg
-                          class="h-6 w-6 text-pink-500"
-                          stroke="currentColor"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M5 13l4 4L19 7"
-                          />
-                        </svg>
-                      </div>
-                      <p
-                        class="ml-3 text-base leading-6 font-medium text-gray-500"
-                      >
-                        Community access
-                      </p>
+                      <p class="ml-3 text-base leading-6 font-medium text-gray-500">Community access</p>
                     </li>
                   </ul>
                   <div class="mt-8">
@@ -547,8 +470,7 @@
                         data-gumroad-single-product="true"
                         class="block w-full text-center rounded-lg bg-white px-6 py-3 text-base leading-6 font-semibold font-display text-pink-600 hover:text-pink-500 focus:outline-none focus:shadow-outline transition ease-in-out duration-150"
                         target="_blank"
-                        >Buy Early Access</a
-                      >
+                      >Buy Early Access</a>
                     </div>
                   </div>
                 </div>

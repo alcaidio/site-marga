@@ -6,20 +6,18 @@
       <div class="font-bold w-full sm:w-3/5 text-center sm:text-left">
         <h1
           class="font-semibold text-gray-900 font-display text-4xl sm:text-5xl lg:text-6xl leading-none font-semibold"
-        >
-          Laissez vous guider
-        </h1>
-        <h2 class="text-pink-500 text-xl lg:text-3xl mt-3">
-          Et percez les secrets de la région Occitanie jusqu'à la Provence 🧭
-        </h2>
+        >Laissez vous guider</h1>
+        <h2
+          class="text-pink-500 text-xl lg:text-3xl lg:tracking-wide mt-3"
+        >Et percez les secrets de la région Occitanie jusqu'à la Provence 🧭</h2>
         <div
-          class="text-gray-700 mt-4 leading-relaxed font-light text-lg lg:text-xl"
+          class="text-gray-700 mt-4 leading-relaxed lg:leading-loose font-light text-lg lg:text-xl"
         >
           Vous rêvez d’explorer le Sud, le Patrimoine historique, artistique et
-          culturel vous intéresse ? Venez parcourir plus de 2000 ans
-          d’Histoire !
+          culturel vous intéresse ? Venez parcourir plus de 2000 ans
+          d’Histoire !
         </div>
-        <div class="mt-6 pb-3">
+        <div class="mt-6 pb-3 lg:pt-4">
           <button
             v-if="$route.path === '/'"
             href="/#about"
@@ -45,23 +43,21 @@
           </button>
         </div>
       </div>
-      <div class="dyn flex-1">
+      <div class="flex-1">
         <g-image src="../../static/travel.png" alt="hero" />
       </div>
     </div>
     <!-- end hero -->
 
-    <div class="overflow-x-hidden bg-background-secondary" id="visites">
-      <div class="container-inner-large mx-auto text-xl pt-24 pb-12">
+    <div class="bg-background-secondary overflow-x-hidden" id="visites">
+      <div class="container-inner-large mx-auto text-xl pt-24 pb-20">
         <div class="mb-12">
           <h2
             class="font-semibold text-gray-900 font-display text-3xl sm:text-5xl lg:text-5xl leading-none font-semibold"
-          >
-            Les circuits touristiques
-          </h2>
-          <p class="text-gray-600 text-xl lg:text-2xl">
-            Partez à la découverte du patrimoine culturel et historique.
-          </p>
+          >Les destinations touristiques</h2>
+          <p
+            class="text-gray-600 text-xl lg:text-2xl"
+          >Partez à la découverte du patrimoine culturel et historique.</p>
         </div>
         <div class="overflow-x-scroll whitespace-no-wrap pb-8">
           <card
@@ -81,7 +77,7 @@
             image="https://st.depositphotos.com/2665689/4700/i/600/depositphotos_47005213-stock-photo-place-de-comedie-in-montpellier.jpg"
           />
           <card
-            title="Aigues-Mortes et la camargue"
+            title="Aigües-Mortes et la camargue"
             price="39"
             nbr="14"
             place="15"
@@ -153,7 +149,7 @@
             image="https://www.chateau-laroque.fr/wp-content/uploads/2016/06/laroquedupic1-600x300.jpg"
           />
           <card
-            title="Carcassone la cité médiévale"
+            title="Carcassonne la cité médiévale"
             price="59"
             nbr="3"
             place="15"
@@ -161,68 +157,117 @@
             image="https://upload.wikimedia.org/wikipedia/commons/3/34/La_Cit%C3%A9_de_Carcassonne_%2826422085310%29.jpg"
           />
         </div>
-        <div class="pb-6 pt-2 text-gray-500 font-medium text-sm">
-          * Les prix et le nombre de places disponibles sont à titre indicatif.
-        </div>
+        <div
+          class="pb-6 pt-2 text-gray-500 font-medium text-sm"
+        >* Les prix et le nombre de places disponibles sont à titre indicatif.</div>
       </div>
     </div>
 
-    <section class="bg-white border-b py-12">
-      <div
-        class="container mx-auto flex flex-wrap items-center justify-between"
-      >
+    <section class="bg-white border-t py-12">
+      <div class="mx-auto flex flex-wrap items-center justify-between">
         <div
-          class="flex flex-1 flex-wrap max-w-4xl mx-auto items-center justify-between text-xl text-gray-500 font-bold opacity-75"
+          class="flex container-inner-large flex-wrap max-w-4xl mx-auto items-center justify-between text-xl text-gray-500 font-bold opacity-75"
         >
-          <span class="w-1/2 p-4 md:w-auto flex items-center"
-            ><svg
-              class="h-10 w-10 mr-4 fill-current text-gray-500 opacity-75"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-            >
-              <path d="M7 0H6L0 3v6l4-1v12h12V8l4 1V3l-6-3h-1a3 3 0 0 1-6 0z" />
-            </svg>
-            TeeShirtz</span
+          <a
+            href="https://www.nimes-tourisme.com/fr/"
+            target="_blank"
+            class="w-1/3 p-4 md:w-auto flex items-center text-gray-500 opacity-50"
           >
+            <g-image
+              src="../../static/partenaires/logo-nimes.svg"
+              alt="Office de tourisme Nîmes"
+              class="h-16 w-16 mr-4 fill-current"
+            ></g-image>
+          </a>
 
-          <span class="w-1/2 p-4 md:w-auto flex items-center"
-            ><svg
-              class="h-10 w-10 mr-4 fill-current text-gray-500 opacity-75"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-            >
-              <path
-                d="M15.75 8l-3.74-3.75a3.99 3.99 0 0 1 6.82-3.08A4 4 0 0 1 15.75 8zM1.85 15.3l9.2-9.19 2.83 2.83-9.2 9.2-2.82-2.84zm-1.4 2.83l2.11-2.12 1.42 1.42-2.12 2.12-1.42-1.42zM10 15l2-2v7h-2v-5z"
-              />
-            </svg>
-            Mic.Check</span
+          <a
+            href="https://www.capvacances.fr/"
+            target="_blank"
+            class="w-1/3 p-4 md:w-auto flex items-center text-gray-500 opacity-50"
           >
-
-          <span class="w-1/2 p-4 md:w-auto flex items-center"
-            ><svg
-              class="h-10 w-10 mr-4 fill-current text-gray-500 opacity-75"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-            >
-              <path
-                d="M10 12a6 6 0 1 1 0-12 6 6 0 0 1 0 12zm0-3a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm4 2.75V20l-4-4-4 4v-8.25a6.97 6.97 0 0 0 8 0z"
-              />
-            </svg>
-            BadgeLife.io</span
+            <g-image
+              src="../../static/partenaires/logo-capvacances.svg"
+              alt="Capvacances"
+              class="h-24 w-24 mr-4 fill-current"
+            ></g-image>
+          </a>
+          <a
+            href="https://www.tourisme.fr/php/office.php?ID=2558"
+            target="_blank"
+            class="w-1/3 p-4 md:w-auto flex items-center text-gray-500 opacity-75"
           >
-
-          <span class="w-1/2 p-4 md:w-auto flex items-center"
-            ><svg
-              class="h-10 w-10 mr-4 fill-current text-gray-500 opacity-75"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-            >
-              <path
-                d="M15.3 14.89l2.77 2.77a1 1 0 0 1 0 1.41 1 1 0 0 1-1.41 0l-2.59-2.58A5.99 5.99 0 0 1 11 18V9.04a1 1 0 0 0-2 0V18a5.98 5.98 0 0 1-3.07-1.51l-2.59 2.58a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41l2.77-2.77A5.95 5.95 0 0 1 4.07 13H1a1 1 0 1 1 0-2h3V8.41L.93 5.34a1 1 0 0 1 0-1.41 1 1 0 0 1 1.41 0l2.1 2.1h11.12l2.1-2.1a1 1 0 0 1 1.41 0 1 1 0 0 1 0 1.41L16 8.41V11h3a1 1 0 1 1 0 2h-3.07c-.1.67-.32 1.31-.63 1.89zM15 5H5a5 5 0 1 1 10 0z"
-              />
-            </svg>
-            Bugz 4 Life</span
+            <g-image
+              src="../../static/partenaires/logo-pic-saint-loup.jpg"
+              alt="Office de tourisme Grand Pic Saint Loup"
+              class="h-16 w-16 mr-4 fill-current"
+            ></g-image>
+          </a>
+          <a
+            href="https://domaineguinand.com/"
+            target="_blank"
+            class="w-1/3 p-4 md:w-auto flex items-center text-gray-500 opacity-75"
           >
+            <g-image
+              src="../../static/partenaires/logo-guinand.jpg"
+              alt="Domaine de guinand à Saint Christol"
+              class="h-20 w-24 mr-4 fill-current"
+            ></g-image>
+          </a>
+          <a
+            href="https://lguide.fr/"
+            target="_blank"
+            class="w-1/3 p-4 md:w-auto flex items-center text-gray-200 opacity-50"
+          >
+            <g-image
+              src="../../static/partenaires/logo-lguide.png"
+              alt="L'guide, guide free-lance"
+              class="h-16 w-16 mr-4 img-png"
+            ></g-image>
+          </a>
+          <a
+            href="https://sebecobike.fr/echobike/"
+            target="_blank"
+            class="w-1/3 p-4 md:w-auto flex items-center text-gray-500 opacity-50"
+          >
+            <g-image
+              src="../../static/partenaires/logo-eco-bike.png"
+              alt="Seb eco bike"
+              class="h-12 w-16 mr-4 fill-current img-png"
+            ></g-image>
+          </a>
+          <a
+            href="http://www.bergeriefontbonne.fr/"
+            target="_blank"
+            class="w-1/3 p-4 md:w-auto flex items-center text-gray-500 opacity-50"
+          >
+            <g-image
+              src="../../static/partenaires/logo-bergerie-de-fontbonne.svg"
+              alt="Seb eco bike"
+              class="h-24 w-24 mr-4 fill-current"
+            ></g-image>
+          </a>
+          <a
+            href="https://sebecobike.fr/echobike/"
+            target="_blank"
+            class="w-1/3 p-4 md:w-auto flex items-center text-gray-500 opacity-50"
+          >
+            <g-image
+              src="../../static/partenaires/logo-eco-bike.png"
+              alt="Seb eco bike"
+              class="h-12 w-16 mr-4 fill-current img-png"
+            ></g-image>
+          </a>
+          <a
+            href="https://sebecobike.fr/echobike/"
+            target="_blank"
+            class="w-1/3 p-4 md:w-auto flex items-center text-gray-500 opacity-50"
+          >
+            <g-image
+              src="../../static/partenaires/logo-eco-bike.png"
+              alt="Seb eco bike"
+              class="h-12 w-16 mr-4 fill-current img-png"
+            ></g-image>
+          </a>
         </div>
       </div>
     </section>
@@ -233,12 +278,10 @@
     >
       <h2
         class="font-semibold text-gray-900 font-display text-3xl sm:text-5xl lg:text-5xl leading-none font-semibold"
-      >
-        Margareth Alcaide
-      </h2>
-      <p class="text-gray-600 text-xl lg:text-2xl">
-        Guide conférencière passionné d'histoire et de culture 🇮🇹🇫🇷🇪🇸🏴󠁧󠁢󠁥󠁮󠁧󠁿🇺🇸
-      </p>
+      >Margareth Alcaide</h2>
+      <p
+        class="text-gray-600 text-xl lg:text-2xl"
+      >Guide conférencière passionnée d'histoire et de culture 🇮🇹🇫🇷🇪🇸🏴󠁧󠁢󠁥󠁮󠁧󠁿🇺🇸</p>
       <div class="flex flex-col md:flex-row mt-12">
         <div class="font-bold w-full sm:w-3/5 sm:text-left mx-auto">
           <g-image
@@ -258,8 +301,8 @@
             humains.
           </p>
           <p class="mt-2">
-            Pour être au cœur des lieux visités, rencontrer des acteurs locaux
-            contribue à percer quelques secrets et connaître les traditions et
+            Pour être au cœur des lieux visités, rencontrer des acteurs locaux et
+            contribuer à percer quelques secrets, connaître les traditions et les
             cultures.
           </p>
         </div>
@@ -276,11 +319,11 @@
         <p>
           Avide d’anecdotes, de petites histoires , j’aime les raconter en
           éveillant la curiosité des différents publics que je guide et
-          accompagne !
+          accompagne !
         </p>
         <p class="mt-2">
           Mes visites se veulent interactives, diversifiées et dynamiques.
-          J'exerce mon métier avec passion et transmettre ma curiosité mes
+          J'exerce mon métier avec passion et j'aime transmettre ma curiosité mes
           connaissances des territoires. La Nature reste essentielle dans la
           plupart des balades que je propose.
         </p>
@@ -297,41 +340,37 @@
     </div>
     <!-- end get-to-know me -->
 
-    <div
-      class="overflow-x-hidden bg-background-secondary py-24"
-      id="testimonial"
-    >
+    <div class="overflow-x-hidden bg-background-secondary py-24" id="testimonial">
       <div class="container-inner-large mx-auto text-xl">
         <div class="text-center">
           <h2
             class="font-semibold text-gray-900 font-display text-3xl sm:text-5xl lg:text-5xl leading-none font-semibold"
-          >
-            Ce qu'ils en pensent
-          </h2>
-          <p class="text-gray-600 text-xl lg:text-2xl">
-            Merci à tous de me permettre de vous transmettre ma passion ♥️
-          </p>
+          >Ce qu'ils en pensent</h2>
+          <p
+            class="text-gray-600 text-xl lg:text-2xl"
+          >Merci à tous de me permettre de vous transmettre ma passion ♥️</p>
         </div>
         <div class="move flex flex-row items-center mt-4">
           <testimonial
             class="mt-8 mr-6"
             name="Manu Durand"
-            text="“Merci pour cette magnifique journée très instructive et forte agréable !”"
-            image="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"
+            text="“Merci pour cette magnifique journée très instructive et fort agréable !”"
+            image="https://images.unsplash.com/photo-1553267751-1c148a7280a1?ixlib=rb-1.2.1&w=300&height=300&fit=facearea&facepad=2.3"
           />
           <testimonial
             class="mt-8 mr-6"
             name="Justine Orwell"
             text="“Très instructif on ne connaissait pas cette magnifique ville et merci pour
           cette fantastique visite”"
-            image="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"
+            image="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&height=1650&q=80&fit=facearea&facepad=2.2"
           />
           <testimonial
             class="mt-8 mr-6"
-            name="Xavier Laurent"
+            name="Francis Bernard"
             text="“Notre guide Margareth a mené une passionnante conférence sur le tableau des Ménines de Velazquez à la Gazette Café un grand merci à elle.”"
-            image="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"
+            image="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&height=1650&q=80&fit=facearea&facepad=2.3"
           />
+          <!-- &fit=crop&fit=facearea&facepad=2.5&w=144&h144 -->
         </div>
       </div>
     </div>
@@ -341,19 +380,13 @@
     >
       <h2
         class="text-center text-3xl leading-9 font-extrabold tracking-tight text-pink-600 sm:text-4xl sm:leading-10"
-      >
-        Prêt pour commencer l'aventure ?
-      </h2>
-      <div class="text-2xl text-gray-900 tracking-tight font-medium">
-        07 67 50 30 66 📲
-      </div>
+      >Prêt pour commencer l'aventure ?</h2>
+      <div class="text-2xl text-gray-900 tracking-tight font-medium">06 63 82 15 07 📲</div>
       <div class="mt-6 flex lg:flex-shrink-0">
         <a href="https://tailwindcss.com/docs/responsive-design/#app">
           <button
             class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center"
-          >
-            Contactez moi 🤝
-          </button>
+          >Contactez moi 🤝</button>
         </a>
       </div>
     </div>
@@ -363,9 +396,7 @@
         <div class="mb-12">
           <h2
             class="font-semibold text-gray-900 font-display text-3xl sm:text-5xl lg:text-5xl leading-none font-semibold"
-          >
-            Les derniers articles
-          </h2>
+          >Les derniers articles</h2>
           <p class="text-gray-600 text-xl lg:text-2xl">
             Suivez l'actualité pour en savoir un peu plus sur
             <span class="font-semibold">Margalaguia</span> 👀
@@ -397,14 +428,14 @@ import PricingComponent from "../components/PricingComponent";
 import PostComponent from "../components/PostComponent";
 export default {
   metaInfo: {
-    title: "Home",
+    title: "Accueil"
   },
   components: {
     card: CardComponent,
     testimonial: TestimonialComponent,
     pricing: PricingComponent,
-    post: PostComponent,
-  },
+    post: PostComponent
+  }
 };
 </script>
 
@@ -446,11 +477,15 @@ query Posts ($page: Int) {
   }
 }
 
-.dyn img {
-  transition: transform 0.5s ease-in-out;
+.img-png {
+  @apply opacity-75;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
 }
 
-.dyn:hover img {
-  transform: translateX(5%) translateY(-5%);
+.img-png:hover {
+  @apply opacity-75;
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
 }
 </style>
