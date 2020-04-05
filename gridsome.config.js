@@ -15,23 +15,8 @@ module.exports = {
   siteName: "Margalaguia guide conférencière",
   siteDescription:
     "Le site de margalaguia guide conférencière en région Occitanie et Provenece",
-  siteUrl: "https://gridsome-portfolio-starter.netlify.com",
+  siteUrl: "https://margalaguia.com/",
   plugins: [
-    {
-      use: "@gridsome/vue-remark",
-      options: {
-        typeName: "Documentation", // Required
-        baseDir: "./docs", // Where .md files are located
-        pathPrefix: "/docs", // Add route prefix. Optional
-        template: "./src/templates/Documentation.vue", // Optional
-        plugins: [
-          [
-            "gridsome-plugin-remark-shiki",
-            { theme: "Material-Theme-Palenight", skipInline: true },
-          ],
-        ],
-      },
-    },
     {
       use: "@gridsome/source-filesystem",
       options: {
@@ -51,13 +36,13 @@ module.exports = {
         contentTypeName: "Post",
         feedOptions: {
           title: "Margalaguia guide conférencière",
-          feed_url: "https://gridsome-portfolio-starter.netlify.com/rss.xml",
-          site_url: "https://gridsome-portfolio-starter.netlify.com/",
+          feed_url: "https://margalaguia.com//rss.xml",
+          site_url: "https://margalaguia.com//",
         },
         feedItemOptions: (node) => ({
           title: node.title,
           description: node.summary,
-          url: "https://gridsome-portfolio-starter.netlify.com" + node.path,
+          url: "https://margalaguia.com/" + node.path,
           author: "Timothy Alcaide",
           date: node.date,
         }),
@@ -71,6 +56,12 @@ module.exports = {
       use: "@gridsome/plugin-sitemap",
       options: {
         cacheTime: 600000, // default
+      },
+    },
+    {
+      use: "@gridsome/plugin-google-analytics",
+      options: {
+        id: "UA-134054817-2",
       },
     },
   ],

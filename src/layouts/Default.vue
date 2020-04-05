@@ -134,7 +134,9 @@
 <static-query>
 query {
   metadata {
-    siteName
+    siteName,
+    siteUrl,
+    siteDescription
   }
 }
 </static-query>

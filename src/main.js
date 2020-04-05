@@ -32,6 +32,16 @@ export default function (Vue, { router, head, isClient }) {
     content: "Timothy ALCAIDE",
   });
 
+  head.meta.push({
+    name: "image",
+    content: "./static/hero-site.png",
+  });
+
+  head.meta.push({
+    name: "url",
+    content: "https://margalaguia.com/",
+  });
+
   head.link.push({
     rel: "stylesheet",
     href: "https://fonts.googleapis.com/css?family=Nunito+Sans:400,700",
