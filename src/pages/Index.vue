@@ -7,12 +7,10 @@
       <div class="font-bold w-full sm:w-3/5 text-center sm:text-left">
         <h1
           class="font-semibold text-gray-900 font-display text-4xl sm:text-5xl lg:text-6xl leading-none font-semibold"
-        >
-          Laissez vous guider
-        </h1>
-        <h2 class="text-pink-500 text-xl lg:text-3xl lg:tracking-wide mt-3">
-          Et percez les secrets de la région Occitanie jusqu'à la Provence 🧭
-        </h2>
+        >Laissez vous guider</h1>
+        <h2
+          class="text-pink-500 text-xl lg:text-3xl lg:tracking-wide mt-3"
+        >Et percez les secrets de la région Occitanie jusqu'à la Provence 🧭</h2>
         <div
           class="text-gray-700 mt-4 leading-relaxed lg:leading-loose font-light text-lg lg:text-xl"
         >
@@ -60,12 +58,10 @@
         <div class="mb-12">
           <h2
             class="font-semibold text-gray-900 font-display text-3xl sm:text-5xl lg:text-5xl leading-none font-semibold"
-          >
-            Les destinations touristiques
-          </h2>
-          <p class="text-gray-600 text-xl lg:text-2xl">
-            Partez à la découverte du patrimoine culturel et historique.
-          </p>
+          >Les destinations touristiques</h2>
+          <p
+            class="text-gray-600 text-xl lg:text-2xl"
+          >Partez à la découverte du patrimoine culturel et historique.</p>
         </div>
         <div class="overflow-x-scroll whitespace-no-wrap pb-8">
           <card
@@ -165,9 +161,9 @@
             image="https://upload.wikimedia.org/wikipedia/commons/3/34/La_Cit%C3%A9_de_Carcassonne_%2826422085310%29.jpg"
           />
         </div>
-        <div class="pb-6 pt-2 text-gray-500 font-medium text-sm">
-          * Les prix et le nombre de places disponibles sont à titre indicatif.
-        </div>
+        <div
+          class="pb-6 pt-2 text-gray-500 font-medium text-sm"
+        >* Les prix et le nombre de places disponibles sont à titre indicatif.</div>
       </div>
     </section>
     <!-- end visites -->
@@ -290,12 +286,10 @@
     >
       <h2
         class="font-semibold text-gray-900 font-display text-3xl sm:text-5xl lg:text-5xl leading-none font-semibold"
-      >
-        Margareth Alcaide
-      </h2>
-      <p class="text-gray-600 text-xl lg:text-2xl">
-        Guide conférencière passionnée d'histoire et de culture 🇮🇹🇫🇷🇪🇸🏴󠁧󠁢󠁥󠁮󠁧󠁿🇺🇸
-      </p>
+      >Margareth Alcaide</h2>
+      <p
+        class="text-gray-600 text-xl lg:text-2xl"
+      >Guide conférencière passionnée d'histoire et de culture 🇮🇹🇫🇷🇪🇸🏴󠁧󠁢󠁥󠁮󠁧󠁿🇺🇸</p>
       <div class="flex flex-col md:flex-row mt-12">
         <div class="font-bold w-full sm:w-3/5 sm:text-left mx-auto">
           <g-image
@@ -360,12 +354,10 @@
         <div class="text-center">
           <h2
             class="font-semibold text-gray-900 font-display text-3xl sm:text-5xl lg:text-5xl leading-none font-semibold"
-          >
-            Ce qu'ils en pensent
-          </h2>
-          <p class="text-gray-600 text-xl lg:text-2xl">
-            Merci à tous de me permettre de vous transmettre ma passion ♥️
-          </p>
+          >Ce qu'ils en pensent</h2>
+          <p
+            class="text-gray-600 text-xl lg:text-2xl"
+          >Merci à tous de me permettre de vous transmettre ma passion ♥️</p>
         </div>
         <div class="move flex flex-row items-center mt-4">
           <testimonial
@@ -399,19 +391,13 @@
     >
       <h2
         class="text-center text-3xl leading-9 font-extrabold tracking-tight text-pink-600 sm:text-4xl sm:leading-10"
-      >
-        Prêt à commencer l'aventure ?
-      </h2>
-      <div class="text-2xl text-gray-900 tracking-tight font-medium">
-        06 63 82 15 07 📲
-      </div>
+      >Prêt à commencer l'aventure ?</h2>
+      <div class="text-2xl text-gray-900 tracking-tight font-medium">06 63 82 15 07 📲</div>
       <div class="mt-6 flex lg:flex-shrink-0">
         <a :href="formUrl" target="_blank">
           <button
             class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center"
-          >
-            Contactez moi 🤝
-          </button>
+          >Contactez moi 🤝</button>
         </a>
       </div>
     </section>
@@ -423,15 +409,13 @@
         <div class="mb-12">
           <h2
             class="font-semibold text-gray-900 font-display text-3xl sm:text-5xl lg:text-5xl leading-none font-semibold"
-          >
-            Les derniers articles
-          </h2>
+          >Les derniers articles</h2>
           <p class="text-gray-600 text-xl lg:text-2xl">
             Suivez l'actualité pour en savoir un peu plus sur
             <span class="font-semibold">Margalaguia</span> 👀
           </p>
         </div>
-        <div class="overflow-x-scroll whitespace-no-wrap pb-8">
+        <!-- <div class="overflow-x-scroll whitespace-no-wrap pb-8">
           <post
             v-for="post in $page.posts.edges"
             :key="post.id"
@@ -440,13 +424,14 @@
             :link="post.node.path"
             :tag="post.node"
           />
-        </div>
+        </div>-->
+        <div class="text-gray-600">Pas d'article disponible pour le moment ✍️</div>
       </div>
     </section>
     <!-- end blog -->
 
     <!-- Pricing section  -->
-    <pricing />
+    <pricing id="pricing" />
     <!-- End pricing section -->
   </Layout>
 </template>
@@ -455,22 +440,22 @@
 import CardComponent from "../components/CardComponent";
 import TestimonialComponent from "../components/TestimonialComponent";
 import PricingComponent from "../components/PricingComponent";
-import PostComponent from "../components/PostComponent";
+// import PostComponent from "../components/PostComponent";
 export default {
   metaInfo: {
-    title: "Accueil",
+    title: "Accueil"
   },
   components: {
     card: CardComponent,
     testimonial: TestimonialComponent,
-    pricing: PricingComponent,
-    post: PostComponent,
+    pricing: PricingComponent
+    // post: PostComponent
   },
   data() {
     return {
-      formUrl: "https://forms.gle/c6gSXU5ravgj5GRZ6",
+      formUrl: "https://forms.gle/c6gSXU5ravgj5GRZ6"
     };
-  },
+  }
 };
 </script>
 
