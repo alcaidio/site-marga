@@ -112,7 +112,8 @@
         <ul class="flex items-center">
           <li class="mr-8">
             <a
-              href="mailto:me@example.com"
+              :href="formUrl"
+              target="_blank"
               class="text-white hover:text-gray-400"
             >
               <svg

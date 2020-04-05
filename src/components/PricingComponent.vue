@@ -113,8 +113,7 @@
                   <div class="mt-10">
                     <div class="rounded-lg shadow-md">
                       <a
-                        href="https://gum.co/Cfrhr"
-                        data-gumroad-single-product="true"
+                        :href="formUrl"
                         class="block w-full text-center rounded-lg bg-gray-800 px-6 py-4 text-xl leading-6 font-semibold font-display text-white hover:bg-gray-700 focus:outline-none focus:shadow-outline transition ease-in-out duration-150"
                         target="_blank"
                         >Contact</a
@@ -207,10 +206,9 @@
                   <div class="mt-8">
                     <div class="rounded-lg shadow-md">
                       <a
-                        href="https://gum.co/KXjZm"
-                        data-gumroad-single-product="true"
-                        class="block w-full text-center rounded-lg bg-white px-6 py-3 text-base leading-6 font-semibold font-display text-pink-600 hover:text-pink-500 focus:outline-none focus:shadow-outline transition ease-in-out duration-150"
+                        :href="formUrl"
                         target="_blank"
+                        class="block w-full text-center rounded-lg bg-white px-6 py-3 text-base leading-6 font-semibold font-display text-pink-600 hover:text-pink-500 focus:outline-none focus:shadow-outline transition ease-in-out duration-150"
                         >Je reserve ma place</a
                       >
                     </div>
@@ -303,8 +301,7 @@
                   <div class="mt-8">
                     <div class="rounded-lg shadow-md">
                       <a
-                        href=""
-                        data-gumroad-single-product="true"
+                        :href="formUrl"
                         class="block w-full text-center rounded-lg bg-white px-6 py-3 text-base leading-6 font-semibold font-display text-pink-600 hover:text-pink-500 focus:outline-none focus:shadow-outline transition ease-in-out duration-150"
                         target="_blank"
                         >Réservation</a
@@ -329,6 +326,11 @@ export default {
   components: {
     checkmark: CheckmarkComponent,
     close: CloseComponent,
+  },
+  data() {
+    return {
+      formUrl: "https://forms.gle/c6gSXU5ravgj5GRZ6",
+    };
   },
 };
 </script>

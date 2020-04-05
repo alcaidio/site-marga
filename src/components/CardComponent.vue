@@ -34,7 +34,7 @@
           <div class="flex items-center">
             <svg
               v-for="n in star"
-              :key="n"
+              :key="`${n}-pink`"
               viewBox="0 0 24 24"
               class="text-pink-600 h-4 w-4 fill-current"
             >
@@ -44,7 +44,7 @@
             </svg>
             <svg
               v-for="n in (5 - star)"
-              :key="n"
+              :key="`${n}-gray`"
               viewBox="0 0 24 24"
               class="text-gray-400 h-4 w-4 fill-current"
             >
