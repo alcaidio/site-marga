@@ -19,12 +19,12 @@ export default function (Vue, { router, head, isClient }) {
   head.meta.push({
     name: "keywords",
     content:
-      "Gridsome,Vue,Tailwind,Tailwind CSS,JavaScript,HTML,CSS,Vue.js,VueJS",
+      "Tourisme, Voyage, Visite, Visite touristique, région occitanie, randonnée",
   });
 
   head.meta.push({
     name: "description",
-    content: "Gridsome Portfolio Starter",
+    content: "Margalaguia guide conférencière",
   });
 
   head.meta.push({
