@@ -283,7 +283,7 @@
 
     <!-- start about me -->
     <section
-      class="container-inner mx-auto text-xl border-gray-200 border-b py-24 overflow-x-hidden"
+      class="container-inner mx-auto text-xl border-gray-200 border-b pt-10 pb-24 overflow-x-hidden"
       id="about"
     >
       <h2
@@ -314,8 +314,8 @@
           </p>
           <p class="mt-2">
             Pour être au cœur des lieux visités, rencontrer des acteurs locaux
-            et contribuer à percer quelques secrets, connaître les traditions et
-            les cultures.
+            et percer quelques secrets j'aimerais vous faire connaître les
+            traditions et les cultures.
           </p>
         </div>
       </div>
@@ -398,7 +398,7 @@
       <h2
         class="text-center text-3xl leading-9 font-extrabold tracking-tight text-pink-600 sm:text-4xl sm:leading-10"
       >
-        Prêt pour commencer l'aventure ?
+        Prêt à commencer l'aventure ?
       </h2>
       <div class="text-2xl text-gray-900 tracking-tight font-medium">
         06 63 82 15 07 📲
