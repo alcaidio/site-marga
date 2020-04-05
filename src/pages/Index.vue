@@ -1,6 +1,7 @@
 <template>
   <Layout>
-    <div
+    <!-- start hero section -->
+    <section
       class="h-auto container-inner-large mx-auto flex flex-col sm:flex-row justify-around py-24"
     >
       <div class="font-bold w-full sm:w-3/5 text-center sm:text-left">
@@ -48,13 +49,11 @@
       <div class="flex-1">
         <g-image src="../../static/travel.png" alt="hero" />
       </div>
-    </div>
-    <!-- end hero -->
+    </section>
+    <!-- end hero section -->
 
-    <div
-      class="bg-background-secondary border-t overflow-x-hidden"
-      id="visites"
-    >
+    <!-- start visites -->
+    <section class="bg-secondary border-t overflow-x-hidden" id="visites">
       <div class="container-inner-large mx-auto text-xl pt-24 pb-20">
         <div class="mb-12">
           <h2
@@ -168,8 +167,10 @@
           * Les prix et le nombre de places disponibles sont à titre indicatif.
         </div>
       </div>
-    </div>
+    </section>
+    <!-- end visites -->
 
+    <!-- start partenaires -->
     <section class="bg-white border-t py-12">
       <div class="mx-auto flex flex-wrap items-center justify-between">
         <div
@@ -254,33 +255,35 @@
             ></g-image>
           </a>
           <a
-            href="https://sebecobike.fr/echobike/"
+            href="https://www.ancovart.fr/"
             target="_blank"
             class="w-1/3 p-4 md:w-auto flex items-center text-gray-500 opacity-50"
           >
             <g-image
-              src="../../static/partenaires/logo-eco-bike.png"
-              alt="Seb eco bike"
+              src="../../static/partenaires/logo-ancovart.png"
+              alt="Ancovart"
               class="h-12 w-16 mr-4 fill-current img-png"
             ></g-image>
           </a>
           <a
-            href="https://sebecobike.fr/echobike/"
+            href="https://www.facebook.com/pages/category/Nonprofit-Organization/Les-Guides-du-Languedoc-1200443353391090/"
             target="_blank"
             class="w-1/3 p-4 md:w-auto flex items-center text-gray-500 opacity-50"
           >
             <g-image
-              src="../../static/partenaires/logo-eco-bike.png"
-              alt="Seb eco bike"
+              src="../../static/partenaires/logo-guide-du-languedoc.png"
+              alt="Encovart"
               class="h-12 w-16 mr-4 fill-current img-png"
             ></g-image>
           </a>
         </div>
       </div>
     </section>
+    <!-- end partenaires -->
 
-    <div
-      class="overflow-x-hidden container-inner mx-auto text-xl border-gray-200 border-b py-24"
+    <!-- start about me -->
+    <section
+      class="container-inner mx-auto text-xl border-gray-200 border-b py-24 overflow-x-hidden"
       id="about"
     >
       <h2
@@ -346,13 +349,11 @@
           allowfullscreen
         ></iframe>
       </div>
-    </div>
-    <!-- end get-to-know me -->
+    </section>
+    <!-- end about me -->
 
-    <div
-      class="overflow-x-hidden bg-background-secondary py-24"
-      id="testimonial"
-    >
+    <!-- start témoignage -->
+    <section class="bg-secondary py-24 overflow-x-hidden" id="testimonial">
       <div class="container-inner-large mx-auto text-xl">
         <div class="text-center">
           <h2
@@ -387,9 +388,11 @@
           <!-- &fit=crop&fit=facearea&facepad=2.5&w=144&h144 -->
         </div>
       </div>
-    </div>
+    </section>
+    <!-- end témoignage -->
 
-    <div
+    <!-- start cta -->
+    <section
       class="bg-white container-inner flex flex-col mx-auto py-24 px-4 items-center lg:items-start justify-around"
     >
       <h2
@@ -409,9 +412,11 @@
           </button>
         </a>
       </div>
-    </div>
+    </section>
+    <!-- end cta -->
 
-    <div class="overflow-x-hidden bg-background-secondary" id="visites">
+    <!-- start blog -->
+    <section class="bg-secondary overflow-x-hidden">
       <div class="container-inner-large mx-auto text-xl py-24">
         <div class="mb-12">
           <h2
@@ -435,7 +440,8 @@
           />
         </div>
       </div>
-    </div>
+    </section>
+    <!-- end blog -->
 
     <!-- Pricing section  -->
     <pricing />
@@ -509,5 +515,9 @@ query Posts ($page: Int) {
   @apply opacity-75;
   -webkit-filter: grayscale(0);
   filter: grayscale(0);
+}
+
+.bg-secondary {
+  background: #f7fafc;
 }
 </style>
