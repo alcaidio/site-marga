@@ -4,16 +4,15 @@
       <div class="text-center">
         <h1
           class="mt-9 font-display text-4xl sm:text-5xl lg:text-5xl leading-none font-semibold text-white"
-        >
-          En voiture simone !
-        </h1>
+        >En voiture simone !</h1>
         <p
           class="mt-2 max-w-xl mx-auto text-xl font-thin leading-7 lg:max-w-3xl lg:text-2xl lg:leading-8 text-pink-100"
         >
           Des
           <span class="font-extrabold">balades oenologiques</span> aux
           <span class="font-extrabold">découvertes sportives</span> en passant
-          par les <span class="font-extrabold">visites thématiques</span> ou
+          par les
+          <span class="font-extrabold">visites thématiques</span> ou
           même les
           <span class="font-extrabold">rando "culture nature"</span> vous n'êtes
           pas prêt de vous ennuyer 🙀
@@ -36,42 +35,30 @@
                   <div class="flex justify-center transform -translate-y-1/2">
                     <span
                       class="inline-flex rounded-full bg-pink-400 px-4 py-1 text-sm leading-5 font-semibold tracking-wider uppercase text-white"
-                      >Meilleure vente</span
-                    >
+                    >Meilleure vente</span>
                   </div>
                 </div>
                 <div class="bg-white rounded-t-lg px-6 pt-12 pb-10">
                   <div>
                     <p
                       class="text-center text-lg leading-7 font-semibold font-display text-pink-500 uppercase tracking-widest"
-                    >
-                      🏛
-                    </p>
+                    >🏛</p>
                     <h2
                       class="mt-2 text-center text-3xl leading-9 font-semibold font-display text-gray-900 sm:-mx-6"
-                    >
-                      Méga groupe
-                    </h2>
-                    <div
-                      class="mt-4 flex items-center justify-center font-display"
-                    >
+                    >Méga groupe</h2>
+                    <div class="mt-4 flex items-center justify-center font-display">
                       <span
                         class="-ml-8 text-right text-2xl leading-8 font-semibold text-gray-400 tracking-wide line-through sm:text-3xl sm:leading-9"
-                        >€300</span
-                      >
+                      >€300</span>
                       <span
                         class="px-3 flex items-start text-6xl leading-none tracking-tight font-medium text-gray-900 sm:text-7xl"
                       >
-                        <span
-                          class="mt-2 mr-1 text-4xl leading-none sm:text-5xl"
-                          >€</span
-                        >
+                        <span class="mt-2 mr-1 text-4xl leading-none sm:text-5xl">€</span>
                         <span>249</span>
                       </span>
                       <span
                         class="text-xl leading-8 font-semibold text-gray-400 tracking-wide sm:text-2xl sm:leading-9"
-                        >/ jour</span
-                      >
+                      >/ jour</span>
                     </div>
                     <div
                       class="pt-6 px-4 flex items-center justify-center text-center text-gray-600 tracking-wider font-thin"
@@ -89,25 +76,19 @@
                       <checkmark />
                       <p
                         class="ml-3 text-base leading-6 font-medium text-gray-500"
-                      >
-                        Lieu de rdv facile à trouver 👌
-                      </p>
+                      >Lieu de rdv facile à trouver 👌</p>
                     </li>
                     <li class="mt-4 flex items-start">
                       <checkmark />
                       <p
                         class="ml-3 text-base leading-6 font-medium text-gray-500"
-                      >
-                        La visite à pied 🏃‍♀️
-                      </p>
+                      >La visite à pied 🏃‍♀️</p>
                     </li>
                     <li class="mt-4 flex items-start">
                       <close />
                       <p
                         class="ml-3 text-base leading-6 font-medium text-gray-500"
-                      >
-                        Entrées non comprises 🏷
-                      </p>
+                      >Entrées non comprises 🏷</p>
                     </li>
                   </ul>
                   <div class="mt-10">
@@ -116,16 +97,13 @@
                         :href="formUrl"
                         class="block w-full text-center rounded-lg bg-gray-800 px-6 py-4 text-xl leading-6 font-semibold font-display text-white hover:bg-gray-700 focus:outline-none focus:shadow-outline transition ease-in-out duration-150"
                         target="_blank"
-                        >Contact</a
-                      >
+                      >Contact</a>
                     </div>
                   </div>
                 </div>
               </div>
-              <div
-                class="px-4 text-center text-gray-400 tracking-wide font-hairline"
-              >
-                * Les prix et services sont suscéptible de varier. Contactez-moi
+              <div class="px-4 text-center text-gray-400 tracking-wide font-hairline">
+                * Les prix et services sont suscéptibles de varier. Contactez-moi
                 si vous souhaitez plus d'informations.
               </div>
             </div>
@@ -144,17 +122,11 @@
                   <div class="text-center font-semibold font-display">
                     <p
                       class="text-center text-lg leading-7 font-semibold font-display text-pink-500 uppercase tracking-widest"
-                    >
-                      ✌️
-                    </p>
-                    <h2 class="mt-2 text-3xl leading-9 text-gray-900">
-                      Simple groupe
-                    </h2>
+                    >✌️</p>
+                    <h2 class="mt-2 text-3xl leading-9 text-gray-900">Simple groupe</h2>
                     <span class="text-gray-500">A partir de</span>
 
-                    <div
-                      class="mt-4 flex items-center justify-center font-display"
-                    >
+                    <div class="mt-4 flex items-center justify-center font-display">
                       <span
                         class="px-3 flex items-start text-6xl leading-none tracking-tight font-medium text-gray-900"
                       >
@@ -163,8 +135,7 @@
                       </span>
                       <span
                         class="text-2xl leading-8 font-semibold text-gray-400 tracking-wide"
-                        >/ pers</span
-                      >
+                      >/ pers</span>
                     </div>
                     <div
                       class="pt-6 px-4 flex items-center justify-center text-center text-gray-600 tracking-wider font-thin"
@@ -182,25 +153,19 @@
                       <checkmark />
                       <p
                         class="ml-3 text-base leading-6 font-medium text-gray-500"
-                      >
-                        Lieu de rdv facile à trouver 👌
-                      </p>
+                      >Lieu de rdv facile à trouver 👌</p>
                     </li>
                     <li class="mt-4 flex items-start">
                       <checkmark />
                       <p
                         class="ml-3 text-base leading-6 font-medium text-gray-500"
-                      >
-                        La visite à pied 🏃‍♀️
-                      </p>
+                      >La visite à pied 🏃‍♀️</p>
                     </li>
                     <li class="mt-4 flex items-start">
                       <close />
                       <p
                         class="ml-3 text-base leading-6 font-medium text-gray-500"
-                      >
-                        Entrées non comprises 🏷
-                      </p>
+                      >Entrées non comprises 🏷</p>
                     </li>
                   </ul>
                   <div class="mt-8">
@@ -209,8 +174,7 @@
                         :href="formUrl"
                         target="_blank"
                         class="block w-full text-center rounded-lg bg-white px-6 py-3 text-base leading-6 font-semibold font-display text-pink-600 hover:text-pink-500 focus:outline-none focus:shadow-outline transition ease-in-out duration-150"
-                        >Je reserve ma place</a
-                      >
+                      >Je reserve ma place</a>
                     </div>
                   </div>
                 </div>
@@ -231,17 +195,11 @@
                   <div>
                     <p
                       class="text-center text-lg leading-7 font-semibold font-display text-pink-500 uppercase tracking-widest"
-                    >
-                      👨‍👩‍👧‍👦
-                    </p>
+                    >👨‍👩‍👧‍👦</p>
                     <h2
                       class="mt-2 text-center text-3xl leading-9 font-semibold font-display text-gray-900"
-                    >
-                      Privée
-                    </h2>
-                    <div
-                      class="mt-4 flex items-center justify-center font-display"
-                    >
+                    >Privée</h2>
+                    <div class="mt-4 flex items-center justify-center font-display">
                       <span
                         class="px-3 flex items-start text-6xl leading-none tracking-tight font-medium text-gray-900"
                       >
@@ -250,8 +208,7 @@
                       </span>
                       <span
                         class="text-xl leading-8 font-semibold text-gray-400 tracking-wide"
-                        >/ demi-jour</span
-                      >
+                      >/ demi-jour</span>
                     </div>
                   </div>
                   <div
@@ -267,35 +224,21 @@
                   <ul>
                     <li class="flex items-start">
                       <checkmark />
-                      <p
-                        class="ml-3 text-base leading-6 font-medium text-gray-500"
-                      >
-                        La visite 👀
-                      </p>
+                      <p class="ml-3 text-base leading-6 font-medium text-gray-500">La visite 👀</p>
+                    </li>
+                    <li class="mt-4 flex items-start">
+                      <checkmark />
+                      <p class="ml-3 text-base leading-6 font-medium text-gray-500">Le transport 🚙</p>
                     </li>
                     <li class="mt-4 flex items-start">
                       <checkmark />
                       <p
                         class="ml-3 text-base leading-6 font-medium text-gray-500"
-                      >
-                        Le transport 🚙
-                      </p>
+                      >Un rafraichissement 🍺</p>
                     </li>
                     <li class="mt-4 flex items-start">
                       <checkmark />
-                      <p
-                        class="ml-3 text-base leading-6 font-medium text-gray-500"
-                      >
-                        Un rafraichissement 🍺
-                      </p>
-                    </li>
-                    <li class="mt-4 flex items-start">
-                      <checkmark />
-                      <p
-                        class="ml-3 text-base leading-6 font-medium text-gray-500"
-                      >
-                        Les entrées 🏷
-                      </p>
+                      <p class="ml-3 text-base leading-6 font-medium text-gray-500">Les entrées 🏷</p>
                     </li>
                   </ul>
                   <div class="mt-8">
@@ -304,8 +247,7 @@
                         :href="formUrl"
                         class="block w-full text-center rounded-lg bg-white px-6 py-3 text-base leading-6 font-semibold font-display text-pink-600 hover:text-pink-500 focus:outline-none focus:shadow-outline transition ease-in-out duration-150"
                         target="_blank"
-                        >Réservation</a
-                      >
+                      >Réservation</a>
                     </div>
                   </div>
                 </div>
@@ -325,12 +267,12 @@ import CloseComponent from "./CloseComponent";
 export default {
   components: {
     checkmark: CheckmarkComponent,
-    close: CloseComponent,
+    close: CloseComponent
   },
   data() {
     return {
-      formUrl: "https://forms.gle/c6gSXU5ravgj5GRZ6",
+      formUrl: "https://forms.gle/c6gSXU5ravgj5GRZ6"
     };
-  },
+  }
 };
 </script>

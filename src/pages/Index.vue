@@ -242,17 +242,6 @@
             ></g-image>
           </a>
           <a
-            href="http://www.bergeriefontbonne.fr/"
-            target="_blank"
-            class="w-1/3 p-4 md:w-auto flex items-center text-gray-500 opacity-50"
-          >
-            <g-image
-              src="../../static/partenaires/logo-bergerie-de-fontbonne.svg"
-              alt="Seb eco bike"
-              class="h-24 w-24 mr-4 fill-current"
-            ></g-image>
-          </a>
-          <a
             href="https://www.ancovart.fr/"
             target="_blank"
             class="w-1/3 p-4 md:w-auto flex items-center text-gray-500 opacity-50"
@@ -301,7 +290,7 @@
         <div class="text-lg sm:text-xl sm:ml-12 leading-relaxed">
           <p>
             Je propose des visites guidées en Occitanie et Provence pour tous
-            les publics qu’il soient locaux ou internationaux. Je guide en
+            les publics qu’ils soient locaux ou internationaux. Je guide en
             français, espagnol, anglais et italien.
           </p>
           <p class="mt-2">
