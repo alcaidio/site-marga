@@ -16,13 +16,13 @@
         <div class="text-copy-secondary mb-4">
           <span>{{ post.node.date }}</span>
           <span>&middot;</span>
-          <span>{{ post.node.timeToRead }} min read</span>
+          <span>{{ post.node.timeToRead }} min de lecture</span>
         </div>
 
         <div class="text-lg mb-4">{{ post.node.summary }}</div>
 
         <div class="mb-8">
-          <g-link :to="post.node.path" class="font-bold uppercase">Read More</g-link>
+          <g-link :to="post.node.path" class="font-bold uppercase">Lire plus</g-link>
         </div>
       </div>
       <!-- end post -->

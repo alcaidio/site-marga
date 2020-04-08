@@ -23,7 +23,7 @@
             v-if="$route.path === '/'"
             href="/#about"
             v-scroll-to="'#about'"
-            class="mr-3 bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center"
+            class="mr-3 mb-2 bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center"
           >
             <span>Plus d'info</span>
           </button>
@@ -393,7 +393,7 @@
     <!-- end cta -->
 
     <!-- start blog -->
-    <section class="bg-secondary overflow-x-hidden">
+    <section class="bg-secondary">
       <div class="container-inner-large mx-auto text-xl py-24">
         <div class="mb-12">
           <h2
@@ -404,7 +404,7 @@
             <span class="font-semibold">Margalaguia</span> 👀
           </p>
         </div>
-        <!-- <div class="overflow-x-scroll whitespace-no-wrap pb-8">
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1 md:gap-2 lg:gap-3 pb-8">
           <post
             v-for="post in $page.posts.edges"
             :key="post.id"
@@ -413,8 +413,7 @@
             :link="post.node.path"
             :tag="post.node"
           />
-        </div>-->
-        <div class="text-gray-600">Pas d'article disponible pour le moment ✍️</div>
+        </div>
       </div>
     </section>
     <!-- end blog -->
@@ -429,7 +428,7 @@
 import CardComponent from "../components/CardComponent";
 import TestimonialComponent from "../components/TestimonialComponent";
 import PricingComponent from "../components/PricingComponent";
-// import PostComponent from "../components/PostComponent";
+import PostComponent from "../components/PostComponent";
 export default {
   metaInfo: {
     title: "Accueil"
@@ -437,8 +436,8 @@ export default {
   components: {
     card: CardComponent,
     testimonial: TestimonialComponent,
-    pricing: PricingComponent
-    // post: PostComponent
+    pricing: PricingComponent,
+    post: PostComponent
   },
   data() {
     return {

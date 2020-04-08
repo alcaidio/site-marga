@@ -55,11 +55,14 @@
             >Prix</a>
             <g-link v-else to="/#pricing" class="text-copy-primary hover:text-gray-600">Prix</g-link>
           </li>
-          <!-- <li>
-            <g-link to="/blog" class="text-copy-primary hover:text-gray-600"
-              >Blog</g-link
-            >
-          </li>-->
+          <li>
+            <g-link to="/blog">
+              <button
+                class="bg-pink-200 hover:bg-pink-400 hover:text-white text-pink-500 font-bold py-2 px-4 rounded-lg"
+              >Blog</button>
+            </g-link>
+            <!-- <g-link to="/blog" class="text-copy-primary hover:text-gray-600">Blog</g-link> -->
+          </li>
         </ul>
       </nav>
     </header>
