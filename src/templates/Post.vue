@@ -14,6 +14,9 @@
       </div>
       <div class="markdown-body mb-8" v-html="$page.post.content" />
       <div class="mb-8">
+        <author />
+      </div>
+      <div class="mb-8">
         <g-link to="/blog" class="font-bold uppercase">Retour au blog</g-link>
       </div>
       <div class="mb-8">
@@ -41,11 +44,16 @@ query Post ($path: String!) {
 </page-query>
 
 <script>
+import AuthorComponent from "../components/AuthorComponent";
+
 export default {
   metaInfo() {
     return {
       title: this.$page.post.title,
     };
+  },
+  components: {
+    author: AuthorComponent,
   },
 };
 </script>
