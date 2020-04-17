@@ -9,11 +9,18 @@
           v-for="tag in $page.post.tags"
           :key="tag.id"
           class="bg-gray-300 rounded-full px-4 py-2 mr-4 hover:bg-pink-300"
-        >{{ tag.title }}</g-link>
+          >{{ tag.title }}</g-link
+        >
       </div>
       <div class="markdown-body mb-8" v-html="$page.post.content" />
       <div class="mb-8">
         <g-link to="/blog" class="font-bold uppercase">Retour au blog</g-link>
+      </div>
+      <div class="mb-8">
+        <vue-disqus
+          shortname="margalaguia"
+          :identifier="$page.post.title"
+        ></vue-disqus>
       </div>
     </div>
   </Layout>
@@ -37,9 +44,9 @@ query Post ($path: String!) {
 export default {
   metaInfo() {
     return {
-      title: this.$page.post.title
+      title: this.$page.post.title,
     };
-  }
+  },
 };
 </script>
 
