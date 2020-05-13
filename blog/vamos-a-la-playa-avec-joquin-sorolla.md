@@ -9,13 +9,13 @@ summary: Joaquin Sorolla, peintre espagnol nous transporte sur les plages
 tags:
   - Sorolla Valencia impressionnisme
 ---
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -55,9 +55,9 @@ tags:
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -636,9 +636,9 @@ tags:
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -665,7 +665,7 @@ tags:
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
 
@@ -686,15 +686,15 @@ En 2016 une expo s'est tenue à *Giverny* (Museé des impressionnismes) , réuni
 
 Si vous voulez découvrir ses œuvres je vous conseille.. Madrid où vous pourrez visiter sa maison-musée qui fut son dernier atelier (il mourut à *Cercedilla* au nord de la ville en 1923 et en pleine gloire) . C'est là dans le quartier chic de *Chamberi* que se concentre la plus grande partie de ses œuvres; cette toile y est exposée .Avec son petit jardin intérieur aménagé par Sorolla, le musée est un havre de paix et restitue une certaine ambiance assez authentique.
 
-![](uploads/chicos-en-la-playa.png "chicos en la playa ")
+![](uploads/la-bata-rosa.jpg "chicos en la playa ")
 
-<!--EndFragment--><!--\[if gte mso 9]><xml>
- <o:OfficeDocumentSettings>
-  <o:AllowPNG/>
+<!--EndFragment--><!--\\[if gte mso 9]><xml>
+
+ <o:OfficeDocumentSettings>   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
 </xml><!\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -734,9 +734,9 @@ Si vous voulez découvrir ses œuvres je vous conseille.. Madrid où vous pourre
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -1315,9 +1315,9 @@ Si vous voulez découvrir ses œuvres je vous conseille.. Madrid où vous pourre
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -1344,7 +1344,7 @@ Si vous voulez découvrir ses œuvres je vous conseille.. Madrid où vous pourre
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
 
@@ -1371,23 +1371,21 @@ Sorolla ne recherchait pas à être "artistique" ce qu'il voulait avant toute ch
 Il y a tant de tableaux de Sorolla qu'il m' est difficile d'en choisir.\
 **Mais j'ai pris le parti de rester en bord de mer, lieu de liberté , de vie et de joies.**
 
-<!--\[if !supportLineBreakNewLine]-->
+<!--\\[if !supportLineBreakNewLine]-->
 
-
-
-<!--\[endif]-->
+<!--\\[endif]-->
 
 <!--EndFragment-->
 
-![](uploads/la-bata-rosa.jpg "la bata rosa")
+![](uploads/museo_sorolla_foto-sala-iii-2018.jpg "la bata rosa")
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -1427,9 +1425,9 @@ Il y a tant de tableaux de Sorolla qu'il m' est difficile d'en choisir.\
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -2008,9 +2006,9 @@ Il y a tant de tableaux de Sorolla qu'il m' est difficile d'en choisir.\
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -2037,7 +2035,7 @@ Il y a tant de tableaux de Sorolla qu'il m' est difficile d'en choisir.\
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
 
