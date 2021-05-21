@@ -7,10 +7,12 @@
       <div class="font-bold w-full sm:w-3/5 text-center sm:text-left">
         <h1
           class="font-semibold text-gray-900 font-display text-4xl sm:text-5xl lg:text-6xl leading-none font-semibold"
-        >Laissez vous guider</h1>
-        <h2
-          class="text-pink-500 text-xl lg:text-3xl lg:tracking-wide mt-3"
-        >Et percez les secrets de la région Occitanie jusqu'à la Provence 🧭</h2>
+        >
+          Laissez vous guider
+        </h1>
+        <h2 class="text-pink-500 text-xl lg:text-3xl lg:tracking-wide mt-3">
+          Et percez les secrets de la région Occitanie jusqu'à la Provence 🧭
+        </h2>
         <div
           class="text-gray-700 mt-4 leading-relaxed lg:leading-loose font-light text-lg lg:text-xl"
         >
@@ -58,19 +60,31 @@
         <div class="mb-12">
           <h2
             class="font-semibold text-gray-900 font-display text-3xl sm:text-5xl lg:text-5xl leading-none font-semibold"
-          >Les destinations touristiques</h2>
-          <p
-            class="text-gray-600 text-xl lg:text-2xl"
-          >Partez à la découverte du patrimoine culturel et historique.</p>
+          >
+            Les destinations touristiques
+          </h2>
+          <p class="text-gray-600 text-xl lg:text-2xl">
+            Partez à la découverte du patrimoine culturel et historique.
+          </p>
         </div>
         <div class="overflow-x-scroll whitespace-no-wrap pb-8">
+          <!-- charme et caractère  (pont romain sur le Vidourle, place du marche, montée au château).A partir de 15e /adulte (photo 2) -->
           <card
-            title="Nîmes et le Pont du Gard"
-            price="39"
-            nbr="12"
-            place="20"
+            title="Sommière et la citée médiévale"
+            price="15"
+            nbr="16"
+            place="15"
             :star="5"
-            image="https://upload.wikimedia.org/wikipedia/commons/6/67/Arenes_de_Nimes_panorama.jpg"
+            image="https://images.midilibre.fr/api/v1/images/view/5b5abbd63e4546265825b716/large/image.jpg"
+          />
+          <!-- 4 km ou 8km autour de la pierre et du vin+visite d'un domaine viticole familial et dégustation. -->
+          <card
+            title="Balades champêtres à Castries"
+            price="20"
+            nbr="8"
+            place="15"
+            :star="5"
+            image="https://europe3d-presse.fr/try/wp-content/uploads/2013/05/castries_aqueduc_imageprincipale1.jpg"
           />
           <card
             title="Montpellier centre historique"
@@ -80,6 +94,23 @@
             :star="5"
             image="https://st.depositphotos.com/2665689/4700/i/600/depositphotos_47005213-stock-photo-place-de-comedie-in-montpellier.jpg"
           />
+          <card
+            title="Le pic Saint Loup et ses villages"
+            price="15"
+            nbr="31"
+            place="20"
+            :star="5"
+            image="https://www.chateau-laroque.fr/wp-content/uploads/2016/06/laroquedupic1-600x300.jpg"
+          />
+          <card
+            title="Nîmes et le Pont du Gard"
+            price="39"
+            nbr="12"
+            place="20"
+            :star="5"
+            image="https://upload.wikimedia.org/wikipedia/commons/6/67/Arenes_de_Nimes_panorama.jpg"
+          />
+
           <card
             title="Aigües-Mortes et la camargue"
             price="39"
@@ -95,6 +126,14 @@
             place="15"
             :star="5"
             image="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Abbaye_st_guilhem_1.jpg/800px-Abbaye_st_guilhem_1.jpg"
+          />
+          <card
+            title="Uzès et le Pont du Gard"
+            price="45"
+            nbr="14"
+            place="15"
+            :star="5"
+            image="https://upload.wikimedia.org/wikipedia/commons/3/30/Pont_du_Gard%2C_Languedoc-Roussillon%2C_France_%283679125855%29.jpg"
           />
           <card
             title="Sète et le bassin de Thau"
@@ -129,14 +168,6 @@
             image="https://upload.wikimedia.org/wikipedia/commons/f/f0/Les_Baux-de-Provence_Ch%C3%A2teau_des_Baux_by_Yuan_Hsueh.jpg"
           />
           <card
-            title="Uzès et le Pont du Gard"
-            price="45"
-            nbr="14"
-            place="15"
-            :star="5"
-            image="https://upload.wikimedia.org/wikipedia/commons/3/30/Pont_du_Gard%2C_Languedoc-Roussillon%2C_France_%283679125855%29.jpg"
-          />
-          <card
             title="Le canal du midi"
             price="45"
             nbr="8"
@@ -144,14 +175,7 @@
             :star="5"
             image="https://img-4.linternaute.com/xqTh4t0oXiTJFuyNNzbeLpPJNXY=/fit-in/620x/smart/5c284e199a27490484e73349a9cd23cc/ccmcms-linternaute/11577260.jpg"
           />
-          <card
-            title="Le pic Saint Loup et ses villages"
-            price="29"
-            nbr="31"
-            place="20"
-            :star="5"
-            image="https://www.chateau-laroque.fr/wp-content/uploads/2016/06/laroquedupic1-600x300.jpg"
-          />
+
           <card
             title="Carcassonne la cité médiévale"
             price="59"
@@ -161,9 +185,9 @@
             image="https://upload.wikimedia.org/wikipedia/commons/3/34/La_Cit%C3%A9_de_Carcassonne_%2826422085310%29.jpg"
           />
         </div>
-        <div
-          class="pb-6 pt-2 text-gray-500 font-medium text-sm"
-        >* Les prix et le nombre de places disponibles sont à titre indicatif.</div>
+        <div class="pb-6 pt-2 text-gray-500 font-medium text-sm">
+          * Les prix et le nombre de places disponibles sont à titre indicatif.
+        </div>
       </div>
     </section>
     <!-- end visites -->
@@ -275,10 +299,12 @@
     >
       <h2
         class="font-semibold text-gray-900 font-display text-3xl sm:text-5xl lg:text-5xl leading-none font-semibold"
-      >Margareth Alcaide</h2>
-      <p
-        class="text-gray-600 text-xl lg:text-2xl"
-      >Guide conférencière passionnée d'histoire et de culture 🇮🇹🇫🇷🇪🇸🏴󠁧󠁢󠁥󠁮󠁧󠁿🇺🇸</p>
+      >
+        Margareth Alcaide
+      </h2>
+      <p class="text-gray-600 text-xl lg:text-2xl">
+        Guide conférencière passionnée d'histoire et de culture 🇮🇹🇫🇷🇪🇸🏴󠁧󠁢󠁥󠁮󠁧󠁿🇺🇸
+      </p>
       <div class="flex flex-col md:flex-row mt-12">
         <div class="font-bold w-full sm:w-3/5 sm:text-left mx-auto">
           <g-image
@@ -329,7 +355,7 @@
         <iframe
           class="responsive-iframe w-full h-full top-0 left-0 border-0"
           src="https://www.youtube.com/embed/x5DP_NC-srE"
-          style="border: 0;"
+          style="border: 0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>
@@ -343,10 +369,12 @@
         <div class="text-center">
           <h2
             class="font-semibold text-gray-900 font-display text-3xl sm:text-5xl lg:text-5xl leading-none font-semibold"
-          >Ce qu'ils en pensent</h2>
-          <p
-            class="text-gray-600 text-xl lg:text-2xl"
-          >Merci à tous de me permettre de vous transmettre ma passion ♥️</p>
+          >
+            Ce qu'ils en pensent
+          </h2>
+          <p class="text-gray-600 text-xl lg:text-2xl">
+            Merci à tous de me permettre de vous transmettre ma passion ♥️
+          </p>
         </div>
         <div class="move flex flex-row items-center mt-4">
           <testimonial
@@ -380,14 +408,25 @@
     >
       <h2
         class="text-center text-3xl leading-9 font-extrabold tracking-tight text-pink-600 sm:text-4xl sm:leading-10"
-      >Prêt à commencer l'aventure ?</h2>
-      <div class="text-2xl text-gray-900 tracking-tight font-medium">06 63 82 15 07 📲</div>
+      >
+        Prêt à commencer l'aventure ?
+      </h2>
+      <div class="text-2xl text-gray-900 tracking-tight font-medium">
+        06 63 82 15 07 📲
+      </div>
+
       <div class="mt-6 flex lg:flex-shrink-0">
         <a :href="formUrl" target="_blank">
           <button
             class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center"
-          >Contactez moi 🤝</button>
+          >
+            Contactez moi 🤝
+          </button>
         </a>
+      </div>
+      <div class="mt-8">
+        *Pour des visites privées, visites de groupes (famille, amis,
+        associations) et des petits circuits en Occitanie.
       </div>
     </section>
     <!-- end cta -->
@@ -398,13 +437,17 @@
         <div class="mb-12">
           <h2
             class="font-semibold text-gray-900 font-display text-3xl sm:text-5xl lg:text-5xl leading-none font-semibold"
-          >Les derniers articles</h2>
+          >
+            Les derniers articles
+          </h2>
           <p class="text-gray-600 text-xl lg:text-2xl">
             Suivez l'actualité pour en savoir un peu plus sur
             <span class="font-semibold">Margalaguia</span> 👀
           </p>
         </div>
-        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1 md:gap-2 lg:gap-3 pb-8">
+        <div
+          class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1 md:gap-2 lg:gap-3 pb-8"
+        >
           <post
             v-for="post in $page.posts.edges"
             :key="post.id"
@@ -431,19 +474,19 @@ import PricingComponent from "../components/PricingComponent";
 import PostComponent from "../components/PostComponent";
 export default {
   metaInfo: {
-    title: "Accueil"
+    title: "Accueil",
   },
   components: {
     card: CardComponent,
     testimonial: TestimonialComponent,
     pricing: PricingComponent,
-    post: PostComponent
+    post: PostComponent,
   },
   data() {
     return {
-      formUrl: "https://forms.gle/c6gSXU5ravgj5GRZ6"
+      formUrl: "https://forms.gle/c6gSXU5ravgj5GRZ6",
     };
-  }
+  },
 };
 </script>
 
